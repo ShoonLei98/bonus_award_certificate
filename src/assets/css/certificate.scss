@@ -1,0 +1,22 @@
+.certificate_layout {
+    position: relative;
+    // overflow: scroll;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.generate_certificate_container {
+    position: absolute;
+    z-index: 1500;
+    top: 0;
+    display: flex;
+}
+
+.report_card_list_container {
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 35px;
+    overflow: scroll;
+}

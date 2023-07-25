@@ -1,0 +1,611 @@
+/** all frame report card */
+.bonus-report-card-container {
+  position: relative;
+  width: 2480px;
+  height: 3508px;
+
+  .report-frame {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+
+  .bonus-report-info-container {
+    z-index: 25;
+
+    .agent-bonus-info-container {
+      z-index: inherit;
+      .agent-profile-container {
+        position: absolute;
+        // z-index: 10;
+        width: 972;
+        height: 1331px;
+        top: 37.3%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+
+        .agent-profile {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .agent-name {
+        position: absolute;
+        z-index: inherit;
+        top: 60%;
+        // font-size: 140px;
+        transform: translate(0, -50%);
+        font-family: "comicbd";
+        width: 90%;
+        text-align: center;
+        left: 5%;
+        margin: 30px auto;
+        font-weight: bold;
+        -webkit-text-stroke-width: 6px;
+        -webkit-text-stroke-color: #013a2a;
+        text-shadow: 0px 6px 10px #000000;
+      }
+
+      .agent-code {
+        position: absolute;
+        z-index: inherit;
+        top: 34.5%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        font-size: 80px;
+        font-family: "DynaPuff";
+        &.prefix-name {
+          top: 31%;
+          left: 24.5%;
+          font-size: 140px;
+        }
+      }
+
+      .award-amount {
+        text-align: center;
+        position: absolute;
+        z-index: inherit;
+        top: 66%;
+        left: 10%;
+        transform: translate(0%, -50%);
+        font-size: 80px;
+        width: 80%;
+        font-family: "";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "ThitSar-Regular";
+        font-weight: bold;
+        text-shadow: -7px -7px 0 #034330, 0 -7px 0 #034330, 7px -7px 0 #034330,
+          7px 0 0 #034330, 7px 7px 0 #034330, 0 7px 0 #034330,
+          -7px 7px 0 #034330, -7px 0 0 #034330;
+        .amount-name {
+          margin-top: 45px;
+        }
+
+        .amount-value {
+          font-size: 90px;
+          font-weight: bold;
+        }
+      }
+
+      .bonus-product-list {
+        position: absolute;
+        z-index: inherit;
+        top: 82.7%;
+        left: 48%;
+        transform: translate(-50%, -48%);
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
+        // width: 60%;
+        width: 1655px;
+        height: 972px;
+        justify-content: center;
+        align-items: center;
+        font-family: "Branch";
+        .product-info-row {
+          font-size: 60px;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          // bottom: 6%;
+          .product-name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .agent-much-bonus-info-container {
+      z-index: inherit;
+      .agent-profile-container {
+        position: absolute;
+        width: 499px;
+        height: 779px;
+        top: 21%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+
+        .agent-profile {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .agent-name {
+        position: absolute;
+        z-index: inherit;
+        top: 35%;
+        // font-size: 140px;
+        transform: translate(0, -50%);
+        font-family: "comicbd";
+        width: 90%;
+        text-align: center;
+        left: 5%;
+        margin: 30px auto;
+        font-weight: bold;
+        -webkit-text-stroke-width: 6px;
+        -webkit-text-stroke-color: #013a2a;
+        text-shadow: 0px 6px 10px #000000;
+      }
+
+      .agent-code {
+        position: absolute;
+        z-index: inherit;
+        left: 25%;
+        top: 27.3%;
+        transform: translate(-60%, -50%);
+        font-size: 80px;
+        font-family: "DynaPuff";
+        &.prefix-name {
+          // top: 31%;
+          // left: 24.5%;
+          font-size: 140px;
+          top: 24%;
+          transform: translate(-60%, -50%);
+        }
+      }
+
+      .award-amount {
+        text-align: center;
+        position: absolute;
+        z-index: inherit;
+        // top: 66%;
+        top: 41%;
+        left: 10%;
+        transform: translate(0%, -50%);
+        font-size: 80px;
+        width: 80%;
+        font-family: "";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "ThitSar-Regular";
+        font-weight: bold;
+        text-shadow: -7px -7px 0 #034330, 0 -7px 0 #034330, 7px -7px 0 #034330,
+          7px 0 0 #034330, 7px 7px 0 #034330, 0 7px 0 #034330,
+          -7px 7px 0 #034330, -7px 0 0 #034330;
+        .amount-name {
+          margin-top: 45px;
+        }
+
+        .amount-value {
+          font-size: 90px;
+          font-weight: bold;
+        }
+      }
+
+      .bonus-product-list {
+        position: absolute;
+        z-index: inherit;
+        top: 69%;
+        left: 48%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
+        transform: translate(-50%, -46%);
+        width: 1667px;
+        height: 1818px;
+        // width: 60%;
+        // transform: translate(-50%, -48%);
+        // width: 1655px;
+        // height: 972px;
+        justify-content: center;
+        align-items: center;
+        font-family: "Branch";
+        .product-info-row {
+          font-size: 60px;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          // bottom: 6%;
+          .product-name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .bonus-month {
+      position: absolute;
+      // top: 9%;
+      // left: 50%;
+      transform: translate(-50%, -50%);
+      // font-size: 85px;
+      text-transform: uppercase;
+      z-index: inherit;
+      font-family: "MontserratVariableFont";
+      color: #035b40;
+      text-shadow: -6px -6px 0 #fff, 0 -6px 0 #fff, 6px -6px 0 #fff,
+        6px 0 0 #fff, 6px 6px 0 #fff, 0 6px 0 #fff, -6px 6px 0 #fff,
+        -6px 0 0 #fff, 0 3px 16px #000000;
+      &.months {
+        top: 11.5%;
+        left: 81.7%;
+        font-size: 180px;
+        font-weight: 900;
+      }
+
+      &.year {
+        top: 17%;
+        left: 83.8%;
+        font-size: 250px;
+        font-weight: 900;
+      }
+    }
+    .bonus-month-img {
+      top: 7.8%;
+      left: 86.5%;
+      width: 250px;
+      height: 250px;
+      z-index: inherit;
+      position: absolute;
+    }
+
+    .bonus-level {
+      position: absolute;
+      top: 20.6%;
+      left: 66.9%;
+      // transform: translate(-50%, -50%);
+      z-index: inherit;
+      font-size: 50px;
+      font-family: "MontserratRegular";
+      font-weight: bold;
+      margin: 0;
+      width: 760px;
+      height: 83px;
+      text-align: center;
+    }
+
+    // .agent-name {
+    //   position: absolute;
+    //   z-index: inherit;
+    //   top: 60%;
+    //   font-size: 140px;
+    //   transform: translate(0, -50%);
+    //   font-family: "comicbd";
+    //   width: 90%;
+    //   text-align: center;
+    //   left: 5%;
+    //   margin: 30px auto;
+    //   font-weight: bold;
+    //   -webkit-text-stroke-width: 6px;
+    //   -webkit-text-stroke-color: #013a2a;
+    //   text-shadow: 0px 6px 10px #000000;
+    // }
+
+    // .agent-code {
+    //   position: absolute;
+    //   z-index: inherit;
+    //   top: 34.5%;
+    //   left: 25%;
+    //   transform: translate(-50%, -50%);
+    //   font-size: 80px;
+    //   font-family: "DynaPuff";
+    //   &.prefix-name {
+    //     top: 31%;
+    //     left: 24.5%;
+    //     font-size: 140px;
+    //   }
+    // }
+  }
+
+  // .award-amount {
+  //   text-align: center;
+  //   position: absolute;
+  //   z-index: inherit;
+  //   top: 66%;
+  //   left: 10%;
+  //   transform: translate(0%, -50%);
+  //   font-size: 80px;
+  //   width: 80%;
+  //   font-family: "";
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: center;
+  //   font-family: "ThitSar-Regular";
+  //   font-weight: bold;
+  //   text-shadow: -7px -7px 0 #034330, 0 -7px 0 #034330, 7px -7px 0 #034330,
+  //     7px 0 0 #034330, 7px 7px 0 #034330, 0 7px 0 #034330, -7px 7px 0 #034330,
+  //     -7px 0 0 #034330;
+  //   .amount-name {
+  //     margin-top: 45px;
+  //   }
+
+  //   .amount-value {
+  //     font-size: 90px;
+  //     font-weight: bold;
+  //   }
+  // }
+
+  // .bonus-product-list {
+  //   position: absolute;
+  //   z-index: 12;
+  //   top: 85%;
+  //   left: 48%;
+  //   transform: translate(-50%, -48%);
+  //   display: flex;
+  //   flex-direction: column;
+  //   row-gap: 70px;
+  //   // width: 60%;
+  //   width: 1655px;
+  //   height: 972px;
+  //   justify-content: center;
+  //   align-items: center;
+  //   font-family: "Branch";
+  //   &.extend-bonus-product-list {
+  //     transform: translate(-50%, -46%);
+  //     width: 1667px;
+  //     height: 1818px;
+  //   }
+  //   .product-info-row {
+  //     font-size: 60px;
+  //     width: 100%;
+  //     display: grid;
+  //     grid-template-columns: 45% 55%;
+  //     // bottom: 6%;
+  //     .product-name {
+  //       width: 100%;
+  //       text-align: right;
+  //     }
+  //   }
+  // }
+}
+
+/** product report card */
+.product_report_card_container {
+  position: relative;
+  width: 2480px;
+  height: 3508px;
+  .report_frame {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+  .thai_flag_img {
+    position: absolute;
+    // background-color: #000000;
+    width: 1289px;
+    height: 300px;
+    left: 48%;
+    top: 0%;
+  }
+  .agent_profile {
+    position: absolute;
+    width: 1129px;
+    height: 1453px;
+    top: 14.4%;
+    left: 27.2%;
+    z-index: -1;
+    // transform: translate(-50%, -50%);
+    // z-index: 12;
+    // transform: rotate(7.7deg);
+    object-fit: cover;
+  }
+  .bonus_report_info_container {
+    z-index: 25;
+
+    .bonus_month {
+      position: absolute;
+      top: 278px;
+      left: 42.3%;
+      font-size: 100px;
+      text-transform: uppercase;
+      z-index: inherit;
+      font-family: "UMoeFont";
+      &.tooth_paste {
+        top: 350px;
+        left: 8%;
+      }
+    }
+
+    .bonus_level {
+      position: absolute;
+      // background-color: #9b7c7c;
+      top: 279px;
+      left: 25%;
+      width: 1240px;
+      display: inline-flex;
+      height: 180px;
+      justify-content: center;
+      // align-items: center;
+      // text-align: center;
+      line-height: 200px;
+      z-index: inherit;
+      font-size: 100px;
+      font-family: "BMKing001-Bold";
+      // text-shadow: 2px 4px 105px rgba(15, 90, 217, 0.2);
+      /* background: pink; */
+    }
+
+    .agent_name {
+      position: absolute;
+      z-index: inherit;
+      top: 58.4%;
+      left: 3%;
+      font-family: "Sunny";
+      text-align: center;
+      align-items: center;
+      width: 100%;
+      font-weight: normal;
+      text-shadow: -6px -6px 0 #fff, 0 -6px 0 #fff, 6px -6px 0 #fff,
+        6px 0 0 #fff, 6px 6px 0 #fff, 0 6px 0 #fff, -6px 6px 0 #fff,
+        -6px 0 0 #fff;
+    }
+
+    .agent_code {
+      position: absolute;
+      z-index: inherit;
+      top: 37.7%;
+      left: 18.7%;
+      font-size: 119px;
+      font-family: "Sunnyspells";
+      text-align: center;
+      /* font-weight: bold; */
+      // -webkit-text-stroke: 2px #000000;
+    }
+    .cash_back_img {
+      position: absolute;
+      z-index: inherit;
+      left: 63.7%;
+      top: 67.8%;
+      width: 793px;
+      height: 358px;
+    }
+
+    .bonus_qty_container {
+      position: absolute;
+      z-index: inherit;
+      bottom: 199px;
+      left: 39%;
+      font-family: "AvantGardeITCbyBT";
+      // font-weight: 900;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 450px;
+      height: 336px;
+      border-radius: 84px;
+      margin: 0;
+      text-shadow: 5px 10px 10px rgba(13, 15, 19, 0.2);
+      // background-color: #000000;
+      &.toothpaste {
+        left: 37.9%;
+      }
+      .bonus_month_quantity {
+        // position: absolute;
+        font-size: 110px;
+        font-style: italic;
+        font-family: "AvantGardeITCbyBT";
+        text-transform: uppercase;
+        line-height: 85px;
+        margin: 0;
+        transform: rotate(6deg);
+        // background-color: #c5c5c5;
+        font-weight: bold;
+      }
+
+      .bonus_quantity {
+        // position: absolute;
+        font-family: "AvantGardeITCbyBT";
+        font-size: 68px;
+        left: 45px;
+        margin: 0;
+        font-style: italic;
+        transform: rotate(9deg);
+        // background-color: #fff;
+      }
+    }
+
+    .award_amount {
+      position: absolute;
+      z-index: inherit;
+      top: 75.9%;
+      left: 62.4%;
+      font-size: 100px;
+      width: 768px;
+      text-align: center;
+      font-family: "Bebas";
+    }
+    .award_currency {
+      position: absolute;
+      z-index: inherit;
+      // bottom: 340px;
+      font-size: 100px;
+      font-family: "Bebas";
+      margin-left: 3px;
+      text-indent: 12px;
+    }
+
+    .money_image {
+      position: absolute;
+      z-index: inherit;
+      bottom: 43px;
+      right: 4.5%;
+      width: 590px;
+      height: 520px;
+      // background-color: aquamarine;
+    }
+  }
+
+  .foc_amount_image_container {
+    background-color: #000000;
+    position: absolute;
+    z-index: 25;
+    left: 10%;
+    bottom: 0px;
+    width: 250px;
+  }
+
+  .foc_amount_container {
+    position: absolute;
+    z-index: inherit;
+    left: 39%;
+    bottom: 34.4%;
+    width: 170px;
+    line-height: 42px;
+    .foc_name {
+      font-size: 52px;
+      margin: 0;
+      // font-weight: 400;
+      font-style: italic;
+    }
+    .foc_amount {
+      font-size: 25px;
+      margin: 0;
+      font-style: italic;
+    }
+  }
+}
+
+.foc_img_container {
+  position: absolute;
+  z-index: 25;
+  left: 21%;
+  bottom: 2.3%;
+  width: 270px;
+  font-family: "AvantGardeITCbyBT";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(5deg);
+  &.supplement {
+    left: 20.5%;
+    bottom: 8.3%;
+    width: 270px;
+  }
+}

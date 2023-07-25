@@ -28,6 +28,7 @@
   color: #61dafb;
 }
 
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +36,311 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: "Athene";
+  src: url('./assets/fonts/april_frames/Athene.otf');
+}
+
+@font-face {
+  font-family: "AvantGardelTCbyBT";
+  src: url('./assets/fonts/april_frames/AvantGardeITCbyBT-Demi.otf');
+}
+
+@font-face {
+  font-family: "Bahamas";
+  src: url('./assets/fonts/april_frames/Bahamas.ttf');
+}
+
+@font-face {
+  font-family: "BahamasBold";
+  src: url('./assets/fonts/april_frames/BahamasBold.ttf');
+}
+
+@font-face {
+  font-family: "BMKing001-Bold";
+  src: url('./assets/fonts/april_frames/BMKing001-Bold.ttf');
+}
+
+@font-face {
+  font-family: "BMKing001-Light";
+  src: url('./assets/fonts/april_frames/BMKing001-Light.ttf');
+}
+
+@font-face {
+  font-family: "BMKing001-Regular";
+  src: url('./assets/fonts/april_frames/BMKing001-Regular.ttf');
+}
+
+@font-face {
+  font-family: "BMKing004-Regular";
+  src: url('./assets/fonts/april_frames/BMKing004-Regular.ttf');
+}
+
+@font-face {
+  font-family: "BRITANIC";
+  src: url('./assets/fonts/april_frames/BRITANIC.TTF');
+}
+
+@font-face {
+  font-family: "fradm";
+  src: url('./assets/fonts/april_frames/fradm.ttf');
+}
+
+@font-face {
+  font-family: "fradmcn";
+  src: url('./assets/fonts/april_frames/fradmcn.ttf');
+}
+
+@font-face {
+  font-family: "georgia";
+  src: url('./assets/fonts/april_frames/georgia.ttf');
+}
+
+@font-face {
+  font-family: "georgiab";
+  src: url('./assets/fonts/april_frames/georgiab.ttf');
+}
+
+@font-face {
+  font-family: "georgiai";
+  src: url('./assets/fonts/april_frames/georgiai.ttf');
+}
+
+@font-face {
+  font-family: "georgiaz";
+  src: url('./assets/fonts/april_frames/georgiaz.ttf');
+}
+
+@font-face {
+  font-family: "News_701_Bold_BT";
+  src: url('./assets/fonts/april_frames/News_701_Bold_BT.ttf');
+}
+
+@font-face {
+  font-family: "NexaBold";
+  src: url('./assets/fonts/april_frames/NexaBold.otf');
+}
+
+@font-face {
+  font-family: "NexaLight";
+  src: url('./assets/fonts/april_frames/NexaLight.otf');
+}
+
+@font-face {
+  font-family: "RoughAnthem";
+  src: url('./assets/fonts/april_frames/RoughAnthem.ttf');
+}
+
+@font-face {
+  font-family: "RouthAnthemItalic";
+  src: url('./assets/fonts/april_frames/RoughAnthemItalic.ttf');
+}
+
+@font-face {
+  font-family: "RowdiesBold";
+  src: url('./assets/fonts/april_frames/RowdiesBold.ttf');
+}
+
+@font-face {
+  font-family: "RowdiesLight";
+  src: url('./assets/fonts/april_frames/RowdiesLight.ttf');
+}
+
+@font-face {
+  font-family: "RowdiesRegular";
+  src: url('./assets/fonts/april_frames/RowdiesRegular.ttf');
+}
+
+@font-face {
+  font-family: "swiss911-extra-compr9c22f";
+  src: url('./assets/fonts/april_frames/swiss911-extra-compr9c22f.ttf');
+}
+
+@font-face {
+  font-family: "w01artHouse";
+  src: url('./assets/fonts/april_frames/w01artHouse.ttf');
+}
+
+@font-face {
+  font-family: "a_dot_space";
+  src: url('./assets/fonts/april_product_frame/a_dot_space.otf');
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url('./assets/fonts/april_product_frame/Avenir.ttf');
+}
+
+@font-face {
+  font-family: "Franxurter_Totally";
+  src: url('./assets/fonts/april_product_frame/Franxurter_Totally.ttf');
+}
+
+@font-face {
+  font-family: "GeoSlab703_XBD_BT";
+  src: url('./assets/fonts/april_product_frame/GeoSlab703_XBD_BT.ttf');
+}
+
+@font-face {
+  font-family: "AcademyEngravedLET";
+  src: url('./assets/fonts/AcademyEngravedLET.ttf');
+}
+
+@font-face {
+  font-family: "AvantGardeITC-Demi";
+  src: url('./assets/fonts/AvantGardeITC-Demi.ttf');
+}
+
+@font-face {
+  font-family: "DreamscapeSans";
+  src: url('./assets/fonts/DreamscapeSans.ttf');
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url('./assets/fonts/Georgia.ttf');
+}
+
+@font-face {
+  font-family: "Rockwell";
+  src: url('./assets/fonts/Rockwell.ttf');
+}
+
+/* fonts for may product */
+@font-face {
+  font-family: "YAMIN";
+  src: url('./assets/fonts/fonts_for_may_frame/018\ YAMIN.ttf');
+}
+
+@font-face {
+  font-family: "AvantGardeITCbyBT";
+  src: url('./assets/fonts/fonts_for_may_frame/AvantGardeITCbyBT-Demi.otf');
+}
+
+@font-face {
+  font-family: "Bebas";
+  src: url('./assets/fonts/fonts_for_may_frame/Bebas-Regular.ttf');
+}
+
+@font-face {
+  font-family: "BMKing001-Bold";
+  src: url('./assets/fonts/fonts_for_may_frame/BMKing001-Bold.ttf');
+}
+
+@font-face {
+  font-family: "BMKing001-light";
+  src: url('./assets/fonts/fonts_for_may_frame/BMKing001-Light.ttf');
+}
+
+@font-face {
+  font-family: "BMKing001-Regular";
+  src: url('./assets/fonts/fonts_for_may_frame/BMKing001-Regular\ \(1\).ttf');
+}
+
+@font-face {
+  font-family: "Sunnyspells";
+  src: url('./assets/fonts/fonts_for_may_frame/SunnyspellsRegular-MV9ze.otf');
+}
+
+@font-face {
+  font-family: "Sunny";
+  src: url('./assets/fonts/fonts_for_may_frame/SunnyspellsRegular-MV9ze.otf');
+}
+
+@font-face {
+  font-family: "times";
+  src: url('./assets/fonts/fonts_for_may_frame/times.ttf');
+}
+
+@font-face {
+  font-family: "timesbd";
+  src: url('./assets/fonts/fonts_for_may_frame/timesbd.ttf');
+}
+
+@font-face {
+  font-family: "timesbi";
+  src: url('./assets/fonts/fonts_for_may_frame/timesbi.ttf');
+}
+
+@font-face {
+  font-family: "timesi";
+  src: url('./assets/fonts/fonts_for_may_frame/timesi.ttf');
+}
+
+@font-face {
+  font-family: "UMoeFont";
+  src: url('./assets/fonts/fonts_for_may_frame/U-MOE-FONT.ttf');
+}
+
+/* fonts for june frames  */
+@font-face {
+  font-family: "Branch";
+  src: url('./assets/fonts/june_all_frames//Branch.otf');
+}
+
+@font-face {
+  font-family: "comic";
+  src: url('./assets/fonts/june_all_frames/comic.ttf');
+}
+
+@font-face {
+  font-family: "comicbd";
+  src: url('./assets//fonts/june_all_frames/comicbd.ttf');
+}
+
+@font-face {
+  font-family: "comici";
+  src: url('./assets/fonts/june_all_frames/comici.ttf');
+}
+
+@font-face {
+  font-family: "comicz";
+  src: url('./assets/fonts/june_all_frames/comicz.ttf');
+}
+
+@font-face {
+  font-family: "DynaPuff";
+  src: url('./assets/fonts/june_all_frames/DynaPuff-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+  font-family: "FontsFreeNetBranch";
+  src: url('./assets/fonts/june_all_frames/FontsFree-Net-Branch.ttf');
+}
+
+@font-face {
+  font-family: "FontsFreeNetMontserratBoldltalic";
+  src: url('./assets/fonts/june_all_frames/FontsFree-Net-Montserrat-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: "MontserratItalicVariableFont";
+  src: url('./assets/fonts/june_all_frames/Montserrat-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: url('./assets/fonts/june_all_frames/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: "MontserratVariableFont";
+  src: url('./assets/fonts/june_all_frames/Montserrat-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "ThitSar-Bold";
+  src: url('./assets/fonts/june_all_frames/OT01_ThitSar-Bold.ttf');
+}
+
+@font-face {
+  font-family: "ThitSar-Regular";
+  src: url('./assets/fonts/june_all_frames/OT01_ThitSar-Regular.ttf');
+}
+
+@font-face {
+  font-family: "ThitSar-Thin";
+  src: url('./assets/fonts/june_all_frames/OT01_ThitSar-Thin.ttf');
 }
