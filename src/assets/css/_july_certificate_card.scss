@@ -13,374 +13,152 @@
 
   .bonus-report-info-container {
     z-index: 25;
+    .agent-profile-container {
+      position: absolute;
+      z-index: -1;
+      width: 761px;
+      height: 1259px;
+      top: 37.5%;
+      left: 50.2%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
 
-    .agent-bonus-info-container {
-      z-index: inherit;
-      .agent-profile-container {
-        position: absolute;
-        // z-index: 10;
-        width: 972;
-        height: 1331px;
-        top: 37.3%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        align-items: center;
-
-        .agent-profile {
-          object-fit: cover;
-          width: 100%;
-          height: 100%;
-        }
-      }
-
-      .agent-name {
-        position: absolute;
-        z-index: inherit;
-        top: 60%;
-        // font-size: 140px;
-        transform: translate(0, -50%);
-        font-family: "comicbd";
-        width: 90%;
-        text-align: center;
-        left: 5%;
-        margin: 30px auto;
-        font-weight: bold;
-        -webkit-text-stroke-width: 6px;
-        -webkit-text-stroke-color: #013a2a;
-        text-shadow: 0px 6px 10px #000000;
-      }
-
-      .agent-code {
-        position: absolute;
-        z-index: inherit;
-        top: 34.5%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-        font-size: 80px;
-        font-family: "DynaPuff";
-        &.prefix-name {
-          top: 31%;
-          left: 24.5%;
-          font-size: 140px;
-        }
-      }
-
-      .award-amount {
-        text-align: center;
-        position: absolute;
-        z-index: inherit;
-        top: 66%;
-        left: 10%;
-        transform: translate(0%, -50%);
-        font-size: 80px;
-        width: 80%;
-        font-family: "";
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: "ThitSar-Regular";
-        font-weight: bold;
-        text-shadow: -7px -7px 0 #034330, 0 -7px 0 #034330, 7px -7px 0 #034330,
-          7px 0 0 #034330, 7px 7px 0 #034330, 0 7px 0 #034330,
-          -7px 7px 0 #034330, -7px 0 0 #034330;
-        .amount-name {
-          margin-top: 45px;
-        }
-
-        .amount-value {
-          font-size: 90px;
-          font-weight: bold;
-        }
-      }
-
-      .bonus-product-list {
-        position: absolute;
-        z-index: inherit;
-        top: 82.7%;
-        left: 48%;
-        transform: translate(-50%, -48%);
-        display: flex;
-        flex-direction: column;
-        row-gap: 70px;
-        // width: 60%;
-        width: 1655px;
-        height: 972px;
-        justify-content: center;
-        align-items: center;
-        font-family: "Branch";
-        .product-info-row {
-          font-size: 60px;
-          width: 100%;
-          display: grid;
-          grid-template-columns: 45% 55%;
-          // bottom: 6%;
-          .product-name {
-            width: 100%;
-            text-align: right;
-          }
-        }
-      }
-    }
-
-    .agent-much-bonus-info-container {
-      z-index: inherit;
-      .agent-profile-container {
-        position: absolute;
-        width: 499px;
-        height: 779px;
-        top: 21%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        align-items: center;
-
-        .agent-profile {
-          object-fit: cover;
-          width: 100%;
-          height: 100%;
-        }
-      }
-
-      .agent-name {
-        position: absolute;
-        z-index: inherit;
-        top: 35%;
-        // font-size: 140px;
-        transform: translate(0, -50%);
-        font-family: "comicbd";
-        width: 90%;
-        text-align: center;
-        left: 5%;
-        margin: 30px auto;
-        font-weight: bold;
-        -webkit-text-stroke-width: 6px;
-        -webkit-text-stroke-color: #013a2a;
-        text-shadow: 0px 6px 10px #000000;
-      }
-
-      .agent-code {
-        position: absolute;
-        z-index: inherit;
-        left: 25%;
-        top: 27.3%;
-        transform: translate(-60%, -50%);
-        font-size: 80px;
-        font-family: "DynaPuff";
-        &.prefix-name {
-          // top: 31%;
-          // left: 24.5%;
-          font-size: 140px;
-          top: 24%;
-          transform: translate(-60%, -50%);
-        }
-      }
-
-      .award-amount {
-        text-align: center;
-        position: absolute;
-        z-index: inherit;
-        // top: 66%;
-        top: 41%;
-        left: 10%;
-        transform: translate(0%, -50%);
-        font-size: 80px;
-        width: 80%;
-        font-family: "";
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: "ThitSar-Regular";
-        font-weight: bold;
-        text-shadow: -7px -7px 0 #034330, 0 -7px 0 #034330, 7px -7px 0 #034330,
-          7px 0 0 #034330, 7px 7px 0 #034330, 0 7px 0 #034330,
-          -7px 7px 0 #034330, -7px 0 0 #034330;
-        .amount-name {
-          margin-top: 45px;
-        }
-
-        .amount-value {
-          font-size: 90px;
-          font-weight: bold;
-        }
-      }
-
-      .bonus-product-list {
-        position: absolute;
-        z-index: inherit;
-        top: 69%;
-        left: 48%;
-        display: flex;
-        flex-direction: column;
-        row-gap: 70px;
-        transform: translate(-50%, -46%);
-        width: 1667px;
-        height: 1818px;
-        // width: 60%;
-        // transform: translate(-50%, -48%);
-        // width: 1655px;
-        // height: 972px;
-        justify-content: center;
-        align-items: center;
-        font-family: "Branch";
-        .product-info-row {
-          font-size: 60px;
-          width: 100%;
-          display: grid;
-          grid-template-columns: 45% 55%;
-          // bottom: 6%;
-          .product-name {
-            width: 100%;
-            text-align: right;
-          }
-        }
+      .agent-profile {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
       }
     }
 
     .bonus-month {
       position: absolute;
-      // top: 9%;
-      // left: 50%;
+      top: 11.6%;
+      //   left: 50%;
       transform: translate(-50%, -50%);
-      // font-size: 85px;
-      text-transform: uppercase;
       z-index: inherit;
-      font-family: "MontserratVariableFont";
-      color: #035b40;
-      text-shadow: -6px -6px 0 #fff, 0 -6px 0 #fff, 6px -6px 0 #fff,
-        6px 0 0 #fff, 6px 6px 0 #fff, 0 6px 0 #fff, -6px 6px 0 #fff,
-        -6px 0 0 #fff, 0 3px 16px #000000;
+      font-family: "Sunnyspells";
+      color: #000000;
+      font-size: 175px;
       &.months {
-        top: 11.5%;
-        left: 81.7%;
-        font-size: 180px;
-        font-weight: 900;
+        left: 44.2%;
       }
 
       &.year {
-        top: 17%;
-        left: 83.8%;
-        font-size: 250px;
-        font-weight: 900;
+        left: 56%;
       }
-    }
-    .bonus-month-img {
-      top: 7.8%;
-      left: 86.5%;
-      width: 250px;
-      height: 250px;
-      z-index: inherit;
-      position: absolute;
     }
 
     .bonus-level {
       position: absolute;
-      top: 20.6%;
-      left: 66.9%;
-      // transform: translate(-50%, -50%);
+      top: 13.1%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       z-index: inherit;
-      font-size: 50px;
-      font-family: "MontserratRegular";
-      font-weight: bold;
-      margin: 0;
-      width: 760px;
-      height: 83px;
-      text-align: center;
+      font-size: 175px;
+      font-family: "Sunnyspells";
+      font-weight: normal;
+      //   margin: 0;
+      //   width: 760px;
+      //   height: 83px;
+      //   text-align: center;
     }
 
-    // .agent-name {
-    //   position: absolute;
-    //   z-index: inherit;
-    //   top: 60%;
-    //   font-size: 140px;
-    //   transform: translate(0, -50%);
-    //   font-family: "comicbd";
-    //   width: 90%;
-    //   text-align: center;
-    //   left: 5%;
-    //   margin: 30px auto;
-    //   font-weight: bold;
-    //   -webkit-text-stroke-width: 6px;
-    //   -webkit-text-stroke-color: #013a2a;
-    //   text-shadow: 0px 6px 10px #000000;
-    // }
+    .agent-name {
+      position: absolute;
+      z-index: inherit;
+      top: 57%;
+      transform: translate(0, -50%);
+      font-family: "soupofjustice";
+      width: 90%;
+      height: 200px;
+      text-align: center;
+      left: 5%;
+      text-shadow: -10px -10px 0 #ffffff, 0 -10px 0 #ffffff,
+        10px -10px 0 #ffffff, 10px 0 0 #ffffff, 10px 10px 0 #ffffff,
+        0 10px 0 #ffffff, -10px 10px 0 #ffffff, -10px 0 0 #ffffff;
+      font-weight: normal;
+    }
 
-    // .agent-code {
-    //   position: absolute;
-    //   z-index: inherit;
-    //   top: 34.5%;
-    //   left: 25%;
-    //   transform: translate(-50%, -50%);
-    //   font-size: 80px;
-    //   font-family: "DynaPuff";
-    //   &.prefix-name {
-    //     top: 31%;
-    //     left: 24.5%;
-    //     font-size: 140px;
-    //   }
-    // }
+    .agent-code {
+      position: absolute;
+      z-index: inherit;
+      top: 37.4%;
+      left: 82.4%;
+      transform: translate(-50%, -50%);
+      font-size: 100px;
+      font-family: "LHANDW";
+      width: 500px;
+      height: 140px;
+      text-align: center;
+      justify-content: center;
+      &.prefix-name {
+        top: 33.7%;
+        left: 82.4%;
+        width: auto;
+        height: auto;
+        font-size: 130px;
+      }
+    }
   }
 
-  // .award-amount {
-  //   text-align: center;
-  //   position: absolute;
-  //   z-index: inherit;
-  //   top: 66%;
-  //   left: 10%;
-  //   transform: translate(0%, -50%);
-  //   font-size: 80px;
-  //   width: 80%;
-  //   font-family: "";
-  //   display: flex;
-  //   align-items: center;
-  //   justify-content: center;
-  //   font-family: "ThitSar-Regular";
-  //   font-weight: bold;
-  //   text-shadow: -7px -7px 0 #034330, 0 -7px 0 #034330, 7px -7px 0 #034330,
-  //     7px 0 0 #034330, 7px 7px 0 #034330, 0 7px 0 #034330, -7px 7px 0 #034330,
-  //     -7px 0 0 #034330;
-  //   .amount-name {
-  //     margin-top: 45px;
-  //   }
+  .award-amount {
+    text-align: center;
+    position: absolute;
+    z-index: inherit;
+    top: 66%;
+    left: 10%;
+    transform: translate(0%, -50%);
+    font-size: 120px;
+    width: 80%;
+    font-family: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "BMKing001-Bold";
+    font-weight: 540;
+    .amount-name {
+      margin-top: 45px;
+    }
 
-  //   .amount-value {
-  //     font-size: 90px;
-  //     font-weight: bold;
-  //   }
-  // }
+    .amount-value {
+      font-size: 90px;
+      font-weight: bold;
+    }
+  }
 
-  // .bonus-product-list {
-  //   position: absolute;
-  //   z-index: 12;
-  //   top: 85%;
-  //   left: 48%;
-  //   transform: translate(-50%, -48%);
-  //   display: flex;
-  //   flex-direction: column;
-  //   row-gap: 70px;
-  //   // width: 60%;
-  //   width: 1655px;
-  //   height: 972px;
-  //   justify-content: center;
-  //   align-items: center;
-  //   font-family: "Branch";
-  //   &.extend-bonus-product-list {
-  //     transform: translate(-50%, -46%);
-  //     width: 1667px;
-  //     height: 1818px;
-  //   }
-  //   .product-info-row {
-  //     font-size: 60px;
-  //     width: 100%;
-  //     display: grid;
-  //     grid-template-columns: 45% 55%;
-  //     // bottom: 6%;
-  //     .product-name {
-  //       width: 100%;
-  //       text-align: right;
-  //     }
-  //   }
-  // }
+  .bonus-product-list {
+    position: absolute;
+    z-index: 12;
+    top: 83.1%;
+    left: 51%;
+    transform: translate(-50%, -48%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 70px;
+    width: 1748px;
+    height: 1041px;
+    justify-content: center;
+    align-items: center;
+    // background-color: #000000;
+    font-family: "georgia";
+    &.extend-bonus-product-list {
+      transform: translate(-50%, -46%);
+      width: 1667px;
+      height: 1818px;
+    }
+    .product-info-row {
+      font-size: 60px;
+      width: 100%;
+      display: grid;
+      grid-template-columns: 45% 55%;
+      // bottom: 6%;
+      .product-name {
+        width: 100%;
+        text-align: right;
+      }
+    }
+  }
 }
 
 /** product report card */

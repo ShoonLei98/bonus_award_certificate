@@ -344,3 +344,14 @@
   font-family: "ThitSar-Thin";
   src: url('./assets/fonts/june_all_frames/OT01_ThitSar-Thin.ttf');
 }
+
+/* july_all_frame */
+@font-face {
+  font-family: "soupofjustice";
+  src: url('./assets/fonts/july_all_frames/soupofjustice.ttf');
+}
+
+@font-face {
+  font-family: "LHANDW";
+  src: url('./assets/fonts/july_all_frames/LHANDW.TTF');
+}
