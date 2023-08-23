@@ -1,0 +1,258 @@
+/** all frame report card */
+.six-months-bonus-report-card-container {
+  position: relative;
+  width: 5384px;
+  height: 3806px;
+
+  .report-frame {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .bonus-info-container {
+    z-index: 25;
+    .bonus-month {
+      position: absolute;
+      z-index: inherit;
+      font-family: "Branch";
+      font-size: 126px;
+      top: 5.8%;
+      left: 7%;
+      color: #000000;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+
+    .bonus-level {
+      position: absolute;
+      z-index: inherit;
+      font-family: "Branch";
+      font-size: 120px;
+      text-transform: uppercase;
+      color: #000000;
+      top: 10.2%;
+      left: 7%;
+      font-weight: 600;
+      word-spacing: 0.1rem;
+    }
+
+    .agent-code {
+      position: absolute;
+      z-index: inherit;
+      width: 400px;
+      height: auto;
+      top: 54.5%;
+      left: 22.7%;
+      color: #dac375;
+      font-family: "Branch";
+      font-size: 82px;
+      justify-content: center;
+      text-align: center;
+      &.prefix-name {
+        top: 50.7%;
+        left: 22.7%;
+        font-size: 125px;
+        font-weight: 500;
+      }
+    }
+
+    .agent-profile {
+      position: absolute;
+      z-index: -1;
+      width: 963px;
+      height: 1445px;
+      top: 17.8%;
+      left: 7.05%;
+    }
+
+    .bonus-less-fifteen-products {
+      z-index: 25;
+      .agent-name {
+        position: absolute;
+        z-index: inherit;
+        display: flex;
+        top: 22%;
+        left: 32%;
+        width: 160rem;
+        height: 13rem;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        font-family: "Branch";
+        font-size: 100px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .bonus-award {
+        position: absolute;
+        z-index: inherit;
+        top: 27.5%;
+        left: 45.9%;
+        font-size: 75px;
+        width: 65rem;
+        height: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "ThitSar-Regular";
+        color: #dac375;
+        .award-amount {
+          letter-spacing: 0.3rem;
+        }
+      }
+
+      .bonus-product-list {
+        position: absolute;
+        z-index: inherit;
+        top: 33.5%;
+        left: 37.6%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
+        width: 1800px;
+        height: 100rem;
+        font-family: "Branch";
+        font-weight: 600;
+        .product-info-row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product-name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .bonus-less-ten-products {
+      z-index: 25;
+      .agent-name {
+        position: absolute;
+        z-index: inherit;
+        top: 30.9%;
+        left: 41%;
+        width: 100rem;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        font-family: "Branch";
+        font-size: 120px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .bonus-award {
+        position: absolute;
+        z-index: inherit;
+        top: 38.7%;
+        left: 44.5%;
+        font-size: 90px;
+        width: 74rem;
+        height: 185px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "ThitSar-Regular";
+        color: #dac375;
+        word-spacing: 0.5rem;
+        .award-amount {
+          letter-spacing: 0.3rem;
+        }
+      }
+
+      .bonus-product-list {
+        position: absolute;
+        z-index: inherit;
+        top: 46.2%;
+        left: 37.6%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
+        width: 1800px;
+        height: 75rem;
+        font-family: "Branch";
+        // font-weight: 500;
+        .product-info-row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product-name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .bonus-less-five-products {
+      z-index: 25;
+      .agent-name {
+        position: absolute;
+        z-index: inherit;
+        top: 31.2%;
+        left: 32%;
+        width: 160rem;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        font-family: "Branch";
+        font-size: 100px;
+        font-weight: 600;
+        text-transform: uppercase;
+      }
+
+      .bonus-award {
+        position: absolute;
+        z-index: inherit;
+        top: 39.2%;
+        left: 43.4%;
+        font-size: 95px;
+        width: 81rem;
+        height: 14rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Thitsar-Regular";
+        color: #dac375;
+        word-spacing: 0.5rem;
+        .award-amount {
+          letter-spacing: 0.5rem;
+        }
+      }
+
+      .bonus-product-list {
+        position: absolute;
+        z-index: inherit;
+        top: 49%;
+        left: 37.6%;
+        display: flex;
+        flex-direction: column;
+        row-gap: 70px;
+        width: 1800px;
+        height: 70rem;
+        font-family: "Branch";
+        font-weight: 500;
+        .product-info-row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product-name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}

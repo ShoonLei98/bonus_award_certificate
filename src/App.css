@@ -355,3 +355,56 @@
   font-family: "LHANDW";
   src: url('./assets/fonts/july_all_frames/LHANDW.TTF');
 }
+
+/* six months all frame fonts */
+@font-face {
+  font-family: "Branch";
+  src: url('./assets//fonts/six_months_fonts/BRANCH.otf');
+}
+
+@font-face {
+  font-family: "FONTSFREE-NET-BRANCH";
+  src: url('./assets/fonts/six_months_fonts/FONTSFREE-NET-BRANCH.ttf');
+}
+
+@font-face {
+  font-family: 'NOVAQUINTA_PERSONAL_USE_ONLY';
+  src: url('./assets/fonts/six_months_fonts/NOVAQUINTA_PERSONAL_USE_ONLY.otf');
+}
+
+@font-face {
+  font-family: "OT01_THITSAR-BOLD";
+  src: url('./assets/fonts/six_months_fonts/OT01_THITSAR-BOLD.ttf');
+}
+
+@font-face {
+  font-family: "OT01_THITSAR-REGULAR";
+  src: url('./assets/fonts/six_months_fonts/OT01_THITSAR-REGULAR.ttf');
+}
+
+@font-face {
+  font-family: "OT01_THITSAR-THIN";
+  src: url('./assets/fonts/six_months_fonts/OT01_THITSAR-THIN.ttf');
+}
+
+/* august all frame certificate */
+
+@font-face {
+  font-family: "FONTTSFREE-NET-BRANCH";
+  src: url('./assets/fonts/august_all_frames/FONTSFREE-NET-BRANCH.ttf');
+}
+
+@font-face {
+  font-family: "SM04_MOON-BOLD";
+  src: url('./assets/fonts/august_all_frames/SM04_MOON-BOLD.ttf');
+}
+
+@font-face {
+  font-family: "SM04_MOON-REGULAR";
+  src: url('./assets/fonts//august_all_frames/SM04_MOON-REGULAR.ttf');
+}
+
+@font-face {
+  font-family: "SM04_MOON-THIN";
+  src: url('./assets/fonts/august_all_frames/SM04_MOON-THIN.ttf');
+}
