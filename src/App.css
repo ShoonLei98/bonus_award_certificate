@@ -408,3 +408,29 @@
   font-family: "SM04_MOON-THIN";
   src: url('./assets/fonts/august_all_frames/SM04_MOON-THIN.ttf');
 }
+
+/* three months trips  */
+@font-face {
+  font-family: "Cormorant-Italic";
+  src: url('./assets/fonts/three_months_trips/Cormorant-Italic-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "Cormorant-VariableFont";
+  src: url('./assets/fonts/three_months_trips/Cormorant-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: "Nexa-ExtraLight";
+  src: url('./assets/fonts/three_months_trips/NEXA-EXTRALIGHT.ttf');
+}
+
+@font-face {
+  font-family: "Nexa-Heavy";
+  src: url('./assets/fonts/three_months_trips/NEXA-HEAVY.ttf');
+}
+
+@font-face {
+  font-family: "w35art-house";
+  src: url('./assets/fonts/three_months_trips/w35art-house.ttf');
+}

@@ -1,0 +1,127 @@
+.product_trip_certificate_container {
+  position: relative;
+  width: 1500px;
+  height: 1800px;
+  .trip_certificate_card {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+
+  .bonus_month {
+    z-index: 10;
+    position: absolute;
+    left: 50.7%;
+    top: 10.5%;
+    color: #ffffff;
+    font-family: "NexaBold";
+    font-size: 55px;
+    transform: rotate(-6deg);
+    filter: drop-shadow(3px 3px 5px rgba(1, 65, 77, 0.64));
+  }
+
+  .agent_profile_container {
+    width: 522px;
+    height: 853px;
+    position: absolute;
+    z-index: 9;
+    left: 5%;
+    top: 25.5%;
+    object-fit: cover;
+    opacity: 0.9;
+    transform: rotate(7deg);
+    background-color: #12679c;
+    .agent_profile {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .agent_name {
+    position: absolute;
+    width: 792px;
+    height: 100px;
+    top: 36%;
+    left: 41%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bebas";
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 500;
+    z-index: 13;
+    color: #000000;
+    line-height: 1px;
+  }
+  .agent_code {
+    font-family: "Bebas";
+    position: absolute;
+    z-index: 13;
+    top: 41.8%;
+    font-size: 75px;
+    font-weight: 500;
+    right: 24.7%;
+  }
+  .amount {
+    font-family: "SM04_MOON-REGULAR";
+    position: absolute;
+    bottom: 22%;
+    z-index: 13;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    &.prize {
+      width: 500px;
+      left: 50.8%;
+      transform: translate(-39%, -100%);
+      word-spacing: -0.5rem;
+    }
+    &.ticket {
+      width: 250px;
+      right: 8%;
+      transform: translate(-10%, -100%);
+    }
+  }
+  .product_group_qty {
+    font-family: "Bebas";
+    position: absolute;
+    color: black;
+    z-index: 13;
+    bottom: 10%;
+    right: 4%;
+    font-size: 70px;
+    font-weight: 500;
+    width: 500px;
+    color: #003c48;
+    text-transform: uppercase;
+    text-align: center;
+    &.toothpaste {
+      left: 38%;
+      bottom: 6%;
+    }
+  }
+  .three_months_range {
+    position: absolute;
+    color: #1f9996;
+    z-index: 13;
+    // width: 100px;
+    font-family: "Montserrat_VariableFont_wght";
+    right: 130px;
+    bottom: 40px;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    text-align: right;
+    line-height: 50px;
+    .trip_months {
+      font-size: 45px;
+    }
+    .year {
+      font-weight: bold;
+      font-size: 55px;
+      line-height: 80px;
+    }
+  }
+}

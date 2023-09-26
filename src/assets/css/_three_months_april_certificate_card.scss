@@ -1,0 +1,107 @@
+.product_trip_certificate_container {
+  position: relative;
+  width: 1800px;
+  height: 1800px;
+  .trip_certificate_card {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+  .agent_profile_container {
+    width: 774px;
+    height: 1120px;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    top: 28%;
+    object-fit: cover;
+    // background-color: pink;
+    opacity: 0.9;
+    .agent_profile {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .agent_name {
+    font-family: "BUBBLEGUM";
+    position: absolute;
+    top: 32%;
+    right: 100px;
+    font-size: 90px;
+    z-index: 13;
+    font-weight: bold;
+    // text-shadow: 3px 3px 5px #12679C;
+    -webkit-text-stroke-color: #12679c;
+    -webkit-text-stroke-width: 3px;
+  }
+  .agent_code {
+    font-family: "Montserrat_Regular";
+    position: absolute;
+    z-index: 13;
+    top: 38%;
+    font-size: 66px;
+    right: 100px;
+    font-weight: bolder;
+  }
+  .amount {
+    font-family: "057_YAMIN";
+    position: absolute;
+    bottom: 22%;
+    z-index: 13;
+    // color: '#12679C' !important;
+    font-size: 100px;
+    text-align: center;
+    &.prize {
+      width: 500px;
+      left: 50%;
+      transform: translate(-13%, -10%);
+    }
+    &.ticket {
+      width: 200px;
+      right: 10%;
+      transform: translate(0%, -10%);
+    }
+  }
+  .product_group_qty {
+    font-family: "Montserrat_VariableFont_wght";
+    position: absolute;
+    color: black;
+    z-index: 13;
+    bottom: 7%;
+    left: 43%;
+    font-size: 50px;
+    font-weight: 500;
+    width: 500px;
+    // background-color: pink;
+    text-align: center;
+    // text-transform: uppercase;
+    &.toothpaste {
+      left: 38%;
+      bottom: 6%;
+    }
+  }
+  .three_months_range {
+    position: absolute;
+    color: #1f9996;
+    z-index: 13;
+    // width: 100px;
+    font-family: "Montserrat_VariableFont_wght";
+    right: 130px;
+    bottom: 40px;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    text-align: right;
+    line-height: 50px;
+    .trip_months {
+      font-size: 45px;
+    }
+    .year {
+      font-weight: bold;
+      font-size: 55px;
+      line-height: 80px;
+    }
+  }
+}
