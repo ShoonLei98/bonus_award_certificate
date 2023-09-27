@@ -45,10 +45,6 @@ const ProductReport = (props) => {
 
   return (
     <div className="product_report_card_container">
-      {region === 'TH' ? 
-            <img className='thai_flag_img' src={ThaiFlag}></img>
-            : null
-      }
       <img src={info?.frame} alt="frame img"  />
       <img src={info?.profile} alt="profile" className="agent_profile" />
       <div className="bonus_report_info_container">

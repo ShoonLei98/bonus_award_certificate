@@ -16,10 +16,10 @@
     .agent-profile-container {
       position: absolute;
       z-index: -1;
-      width: 826px;
-      height: 1021px;
-      top: 32.5%;
-      left: 50.2%;
+      width: 758px;
+      height: 1065px;
+      top: 34.9%;
+      left: 50%;
       transform: translate(-50%, -50%);
       display: flex;
       align-items: center;
@@ -33,15 +33,15 @@
 
     .bonus-month {
       position: absolute;
-      top: 11.2%;
+      top: 12%;
       //   left: 50%;
       transform: translate(-50%, -50%);
       z-index: inherit;
-      font-family: "Branch";
-      color: #000000;
-      font-size: 93px;
-      font-weight: 500;
-      left: 44.2%;
+      font-family: "MontserratRegular";
+      color: #3a3a3c;
+      font-size: 67px;
+      font-weight: bold;
+      left: 50.1%;
       // &.months {
       //   left: 44.2%;
       // }
@@ -53,233 +53,131 @@
 
     .bonus-level {
       position: absolute;
-      top: 12.2%;
-      left: 50%;
+      top: 13.8%;
+      left: 51%;
       transform: translate(-50%, -50%);
       z-index: inherit;
-      font-size: 93px;
-      font-family: "Branch";
-      font-weight: 500;
+      font-size: 70px;
+      font-family: "MontserratRegular";
+      font-weight: bold;
       width: 90rem;
       height: 8rem;
       text-align: center;
+      color: #3a3a3c;
     }
 
     .agent-code {
       position: absolute;
       z-index: 10;
-      top: 33.9%;
-      left: 30.6%;
+      top: 39%;
+      left: 22.1%;
       transform: translate(-50%, -50%);
-      font-size: 65px;
-      font-family: "Branch";
-      width: 310px;
+      font-size: 85px;
+      font-family: "Bodoni";
+      width: 350px;
       height: 100px;
       text-align: center;
       color: #ffffff;
       &.prefix-name {
-        top: 31.1%;
-        left: 30.4%;
+        top: 35.6%;
+        left: 22.6%;
         width: auto;
         height: auto;
-        font-size: 85px;
+        font-size: 120px;
+        font-family: "Berlin_sans";
       }
     }
 
-    .bonus-less-three-products-container {
-      z-index: 25;
-      .agent-name {
-        position: absolute;
-        z-index: inherit;
-        top: 50.4%;
-        transform: translate(0, -50%);
-        font-family: "Branch";
-        width: 90%;
-        height: 240px;
-        text-align: center;
-        left: 5%;
-        font-weight: 500;
-        color: #000000;
+    .agent-name {
+      position: absolute;
+      z-index: inherit;
+      top: 53.7%;
+      transform: translate(0, -50%);
+      font-family: "Berlin_sans";
+      width: 90%;
+      height: 240px;
+      text-align: center;
+      left: 6%;
+      //   font-weight: 500;
+      color: #ea54a3;
+      text-shadow: -6px -6px 0 #fff, 0 -6px 0 #fff, 6px -6px 0 #fff,
+        6px 0 0 #fff, 6px 6px 0 #fff, 0 6px 0 #fff, -6px 6px 0 #fff,
+        -6px 0 0 #fff, 0 3px 16px #000000;
+    }
+
+    .award-amount {
+      position: absolute;
+      z-index: inherit;
+      top: 57.6%;
+      left: 26.4%;
+      font-size: 130px;
+      width: 73rem;
+      height: 12rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "w35art-house";
+      //   font-weight: 500;
+      color: #ea54a3;
+      .amount-name {
       }
-
-      .award-amount {
-        position: absolute;
-        z-index: inherit;
-        top: 56.6%;
-        left: 26.4%;
-        font-size: 100px;
-        width: 73rem;
-        height: 12rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: "SM04_MOON-BOLD";
-        font-weight: 500;
-        color: #ffffff;
-        .amount-name {
-        }
-
-        .amount-value {
-          font-size: 90px;
-          font-weight: bold;
-          letter-spacing: 0.5rem;
-        }
-      }
-
-      .bonus-product-list {
-        position: absolute;
-        z-index: 12;
-        top: 84%;
-        left: 49%;
-        transform: translate(-50%, -48%);
-        display: flex;
-        flex-direction: column;
-        row-gap: 52px;
-        width: 1645px;
-        height: 1350px;
-        font-family: "georgia";
-        color: #000000;
-        .product-info-row {
-          width: 100%;
-          font-size: 50px;
-          display: grid;
-          grid-template-columns: 45% 55%;
-          .product-name {
-            width: 100%;
-            text-align: right;
-          }
-        }
+      .amount-value {
+        font-size: 130px;
+        // font-weight: bold;
+        // letter-spacing: 0.5rem;
       }
     }
 
-    .bonus-less-eight-products-container {
-      z-index: 25;
-      .agent-name {
-        position: absolute;
-        z-index: inherit;
-        top: 50%;
-        transform: translate(0, -50%);
-        font-family: "Branch";
-        width: 90%;
-        height: 200px;
-        text-align: center;
-        left: 5%;
-        font-weight: 500;
-        color: #000000;
-      }
-
-      .award-amount {
-        position: absolute;
-        z-index: inherit;
-        top: 56.6%;
-        left: 26.4%;
-        font-size: 100px;
-        width: 73rem;
-        height: 12rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: "SM04_MOON-BOLD";
-        font-weight: 500;
-        color: #ffffff;
-        .amount-name {
-        }
-
-        .amount-value {
-          font-size: 90px;
-          font-weight: bold;
-          letter-spacing: 0.5rem;
-        }
-      }
-
-      .bonus-product-list {
-        position: absolute;
-        z-index: 12;
-        top: 84%;
-        left: 49%;
-        transform: translate(-50%, -48%);
-        display: flex;
-        flex-direction: column;
-        row-gap: 50px;
-        width: 1645px;
-        height: 1350px;
-        font-family: "georgia";
-        color: #000000;
-        .product-info-row {
+    .bonus-product-list {
+      position: absolute;
+      z-index: 12;
+      top: 82.8%;
+      left: 49%;
+      transform: translate(-50%, -48%);
+      display: flex;
+      flex-direction: column;
+      //   align-items: center;
+      justify-content: center;
+      row-gap: 52px;
+      width: 1800px;
+      height: 1170px;
+      font-family: "MontserratRegular";
+      color: #000c35;
+      .product-info-row {
+        width: 100%;
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        .product-name {
           width: 100%;
-          font-size: 50px;
-          display: grid;
-          grid-template-columns: 45% 55%;
-          .product-name {
-            width: 100%;
-            text-align: right;
-          }
+          text-align: right;
         }
       }
     }
 
-    .bonus-more-eight-products-container {
-      z-index: 25;
-      .agent-name {
-        position: absolute;
-        z-index: inherit;
-        top: 49.2%;
-        transform: translate(0, -50%);
-        font-family: "Branch";
-        width: 90%;
-        height: 200px;
-        text-align: center;
-        left: 5%;
-        font-weight: 500;
-        color: #000000;
-      }
-
-      .award-amount {
-        position: absolute;
-        z-index: inherit;
-        top: 54.5%;
-        left: 26.4%;
-        font-size: 100px;
-        width: 73rem;
-        height: 12rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: "SM04_MOON-BOLD";
-        font-weight: 500;
-        color: #ffffff;
-        .amount-name {
-        }
-
-        .amount-value {
-          font-size: 90px;
-          font-weight: bold;
-          letter-spacing: 0.5rem;
-        }
-      }
-
-      .bonus-product-list {
-        position: absolute;
-        z-index: 12;
-        top: 81.4%;
-        left: 49%;
-        transform: translate(-50%, -48%);
-        display: flex;
-        flex-direction: column;
-        row-gap: 35px;
-        width: 1645px;
-        height: 1350px;
-        font-family: "georgia";
-        color: #000000;
-        .product-info-row {
+    .bonus-product-list-less-seven {
+      position: absolute;
+      z-index: 12;
+      top: 84.8%;
+      left: 49%;
+      transform: translate(-50%, -48%);
+      display: flex;
+      flex-direction: column;
+      //   align-items: center;
+      // justify-content: center;
+      row-gap: 40px;
+      width: 1800px;
+      height: 1170px;
+      font-family: "MontserratRegular";
+      color: #000c35;
+      .product-info-row {
+        width: 100%;
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        .product-name {
           width: 100%;
-          font-size: 50px;
-          display: grid;
-          grid-template-columns: 45% 55%;
-          .product-name {
-            width: 100%;
-            text-align: right;
-          }
+          text-align: right;
         }
       }
     }

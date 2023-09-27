@@ -6,20 +6,20 @@ const ProductFrame = () => {
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false); 
     const [error, setError] = useState(false); 
-    const token = '79030|qm3hkPgNtdP87kRS0cdbVGkihI3jKsqfrd0fqMHz';
+    const token = '122129|bE2e22U4z31XDboryHgwVXvfft8loR0IddjMun35';
     // const bonusColor = BonusReportColor.find(color => (color.product_id === 0));
     useEffect(() => {
         getProductFrame()
     },[])
-    const [region, setRegiong] = useState('TH')
+    const [region, setRegiong] = useState('MM')
     const getProductFrame = async () => {
         try {
             setLoading(true)
-            const response = await axios.post(' https://api.dev.focusbeauty.net/api/admin/bonus-awards/all-details',
+            const response = await axios.post('http://localhost:8000/api/admin/bonus-awards/all-details',
             {
                 sale_region : region ,
-                bonus_date : '2023-05-01',
-                // agent_code : 'FB-020360',
+                bonus_date : '2023-07-01',
+                agent_code : 'FB-000005',
                 //  product_id: 20
             }, 
             {

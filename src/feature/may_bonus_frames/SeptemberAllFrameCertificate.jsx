@@ -51,34 +51,38 @@ const AllFrameReport = (props) => {
           >
           {info?.agent_code?.split('-')[1]}
           </span>
-          <div className={info?.bonus_products?.length <= 3 
-            ? "bonus-less-three-products-container" 
-            : info?.bonus_products?.length <= 8 
-            ? "bonus-less-eight-products-container" 
-            : "bonus-more-eight-products-container"}
-          >           
-            <h1 className="agent-name" style={{ fontSize: name_size }}>
-              {info?.agent_name}
-            </h1>            
-            <div className="award-amount">
-              <div className="amount-name">ဆုကြေးငွေ&nbsp;-&nbsp;</div>
-              <div className="amount-value">
-                {info?.total_award_amount}{' '}
-                {region === 'MM' ? 'ကျပ်' : 'THB'}
-              </div>
+          <h1 className="agent-name" style={{ fontSize: name_size }}>
+            {info?.agent_name}
+          </h1>            
+          <div className="award-amount">
+            <div className="amount-name">qkaju;aiG-</div>
+            <div className="amount-value">
+            {info?.total_award_amount}{' '}
+            {region === 'MM' ? 'usyf' : 'THB'}
             </div>
-            <div className="bonus-product-list">
-              {info?.bonus_products?.length > 0
-                ? info?.bonus_products?.map((info, index) => (
+          </div>
+          <div
+            //   className="bonus-product-list"
+            className={info?.bonus_products?.length >= 8 ? 'bonus-product-list' : 'bonus-product-list-less-seven'}
+              style={{
+                rowGap:
+                  info?.bonus_products?.length >= 10
+                    ? '35px'
+                    : info?.bonus_products?.length >= 8
+                    ? '30px'
+                    : '40px',
+              }}
+            >
+                {info?.bonus_products?.length > 0
+                ? info?.bonus_products?.map((productInfo, index) => (
                     <FrameProductInfo
-                      productInfo={info}
-                      key={index}
-                      rowCount={info?.bonus_products?.length ?? 0}
+                        productInfo={productInfo}
+                        key={index}
+                        rowCount={info?.bonus_products?.length ?? 0}
                     />
-                  ))
+                    ))
                 : null}
-            </div>
-          </div>   
+          </div>  
         </div>
       </div>        
     </>
@@ -92,7 +96,7 @@ const FrameProductInfo = ({ productInfo, rowCount }) => {
         {productInfo?.name}&nbsp;:&nbsp;
       </span>
       <span>
-        {productInfo?.bonus_level} ( {productInfo?.product_qty}{' '}
+        {productInfo?.bonus_level} ({productInfo?.product_qty}{' '}
         {productInfo?.name === 'Snail Wish' || productInfo?.name === 'New Skiin Supplement'
           ? 'Boxes'
           : 'Pcs'}

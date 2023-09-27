@@ -434,3 +434,23 @@
   font-family: "w35art-house";
   src: url('./assets/fonts/three_months_trips/w35art-house.ttf');
 }
+
+/* september all frame  */
+@font-face {
+  font-family: "Montserrat_Thin";
+  src: url('./assets/fonts/september_all_frames/MONTSERRAT-THIN.OTF');
+}
+
+@font-face {
+  font-family: "Berlin_sans";
+  src: url('./assets/fonts/september_all_frames/BRLNSDB.TTF');
+}
+@font-face {
+  font-family: "Bodoni";
+  src: url('./assets/fonts/september_all_frames/BOD.TTF');
+}
+
+@font-face {
+  font-family: "Berlin_sans_regular";
+  src: url('./assets/fonts/september_all_frames/BRLNSR.TTF');
+}
