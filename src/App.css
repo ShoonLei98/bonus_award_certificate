@@ -454,3 +454,19 @@
   font-family: "Berlin_sans_regular";
   src: url('./assets/fonts/september_all_frames/BRLNSR.TTF');
 }
+
+/* september_proudct_frame */
+@font-face {
+  font-family: 'Acumin_concept';
+  src: url('./assets/fonts/september_product_frames/Acumin-Variable-Concept.ttf');
+}
+
+@font-face {
+  font-family: 'Allenoire_Free_Personal';
+  src: url('./assets/fonts/september_product_frames/FontsFree-Net-Allenoire-Font.ttf');
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url('./assets/fonts/september_product_frames/KANIT-BOLD.ttf');
+}

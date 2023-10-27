@@ -187,28 +187,21 @@
 /** product report card */
 .product_report_card_container {
   position: relative;
-  width: 2480px;
-  height: 3508px;
+  width: 1200px;
+  height: 1500px;
   .report_frame {
     width: "100%";
     height: "100%";
     z-index: 10;
     position: absolute;
   }
-  .thai_flag_img {
-    position: absolute;
-    // background-color: #000000;
-    width: 1289px;
-    height: 300px;
-    left: 48%;
-    top: 0%;
-  }
+
   .agent_profile {
     position: absolute;
-    width: 1129px;
-    height: 1453px;
-    top: 14.4%;
-    left: 27.2%;
+    width: 300px;
+    height: 383px;
+    top: 13.9%;
+    left: 18.1%;
     z-index: -1;
     // transform: translate(-50%, -50%);
     // z-index: 12;
@@ -220,150 +213,146 @@
 
     .bonus_month {
       position: absolute;
-      top: 278px;
-      left: 42.3%;
-      font-size: 100px;
-      text-transform: uppercase;
+      top: 9.4%;
+      left: 16.2%;
+      font-size: 50px;
       z-index: inherit;
-      font-family: "UMoeFont";
+      font-family: "Allenoire_Free_Personal";
+      color: #032968;
       &.tooth_paste {
         top: 350px;
         left: 8%;
       }
+      text-shadow: 1px 1px 2px #ffffff;
     }
 
     .bonus_level {
       position: absolute;
-      // background-color: #9b7c7c;
-      top: 279px;
-      left: 25%;
-      width: 1240px;
-      display: inline-flex;
-      height: 180px;
+      top: 10.4%;
+      left: 8.6%;
+      width: 800px;
+      height: 60px;
+      display: flex;
       justify-content: center;
-      // align-items: center;
-      // text-align: center;
-      line-height: 200px;
       z-index: inherit;
-      font-size: 100px;
-      font-family: "BMKing001-Bold";
-      // text-shadow: 2px 4px 105px rgba(15, 90, 217, 0.2);
-      /* background: pink; */
+      font-size: 50px;
+      font-family: "Allenoire_Free_Personal";
+      color: #032968;
+      font-weight: normal;
     }
 
     .agent_name {
       position: absolute;
       z-index: inherit;
-      top: 58.4%;
-      left: 3%;
-      font-family: "Sunny";
-      text-align: center;
-      align-items: center;
-      width: 100%;
+      top: 26.6%;
+      left: 9.5%;
+      font-family: "Allenoire_Free_Personal";
+      display: flex;
+      justify-content: center;
+      width: 730px;
+      height: 70px;
       font-weight: normal;
-      text-shadow: -6px -6px 0 #fff, 0 -6px 0 #fff, 6px -6px 0 #fff,
-        6px 0 0 #fff, 6px 6px 0 #fff, 0 6px 0 #fff, -6px 6px 0 #fff,
-        -6px 0 0 #fff;
+      color: #032968;
+      box-sizing: border-box;
+      line-height: 60px;
     }
 
     .agent_code {
       position: absolute;
       z-index: inherit;
-      top: 37.7%;
-      left: 18.7%;
-      font-size: 119px;
-      font-family: "Sunnyspells";
+      top: 30.1%;
+      left: 19.3%;
+      font-size: 43px;
+      font-family: "Allenoire_Free_Personal";
       text-align: center;
-      /* font-weight: bold; */
-      // -webkit-text-stroke: 2px #000000;
-    }
-    .cash_back_img {
-      position: absolute;
-      z-index: inherit;
-      left: 63.7%;
-      top: 67.8%;
-      width: 793px;
-      height: 358px;
+      color: #032968;
     }
 
     .bonus_qty_container {
       position: absolute;
       z-index: inherit;
-      bottom: 199px;
-      left: 39%;
-      font-family: "AvantGardeITCbyBT";
-      // font-weight: 900;
+      top: 34.6%;
+      left: 19.7%;
+      font-family: "Allenoire_Free_Personal";
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 450px;
-      height: 336px;
-      border-radius: 84px;
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
       margin: 0;
-      text-shadow: 5px 10px 10px rgba(13, 15, 19, 0.2);
-      // background-color: #000000;
+      color: #593d16;
+      line-height: 55px;
       &.toothpaste {
         left: 37.9%;
       }
       .bonus_month_quantity {
-        // position: absolute;
-        font-size: 110px;
-        font-style: italic;
-        font-family: "AvantGardeITCbyBT";
-        text-transform: uppercase;
-        line-height: 85px;
+        font-size: 55px;
         margin: 0;
-        transform: rotate(6deg);
-        // background-color: #c5c5c5;
-        font-weight: bold;
       }
-
       .bonus_quantity {
-        // position: absolute;
-        font-family: "AvantGardeITCbyBT";
-        font-size: 68px;
-        left: 45px;
+        font-size: 34px;
         margin: 0;
-        font-style: italic;
-        transform: rotate(9deg);
-        // background-color: #fff;
+        font-weight: bold;
       }
     }
 
     .award_amount {
       position: absolute;
       z-index: inherit;
-      top: 75.9%;
-      left: 62.4%;
-      font-size: 100px;
-      width: 768px;
-      text-align: center;
-      font-family: "Bebas";
+      top: 32.4%;
+      left: 33.4%;
+      font-size: 50px;
+      font-family: "Acumin_concept";
+      color: #ffffff;
     }
     .award_currency {
       position: absolute;
       z-index: inherit;
       // bottom: 340px;
-      font-size: 100px;
-      font-family: "Bebas";
-      margin-left: 3px;
-      text-indent: 12px;
+      font-size: 50px;
+      font-family: "Acumin_concept";
+      // margin-left: 3px;
+      text-indent: 7px;
+      letter-spacing: -3px;
     }
 
     .money_image {
       position: absolute;
       z-index: inherit;
-      bottom: 43px;
-      right: 4.5%;
-      width: 590px;
-      height: 520px;
-      // background-color: aquamarine;
+      top: 35.8%;
+      left: 32.5%;
+      width: 300px;
+      height: 200px;
     }
   }
 
+  .foc_img_container {
+    position: absolute;
+    z-index: 25;
+    left: 11%;
+    top: 37.8%;
+    width: 130px;
+    height: 130px;
+    font-family: "Kanit";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &.snail_wish {
+      left: 11.9%;
+      top: 38%;
+    }
+  }
+
+  .foc_img {
+    width: 130px;
+    height: 130px;
+  }
+
   .foc_amount_image_container {
-    background-color: #000000;
+    // background-color: #000000;
     position: absolute;
     z-index: 25;
     left: 10%;
@@ -371,42 +360,26 @@
     width: 250px;
   }
 
-  .foc_amount_container {
+  .foc_name {
     position: absolute;
     z-index: inherit;
-    left: 39%;
-    bottom: 34.4%;
-    width: 170px;
-    line-height: 42px;
-    .foc_name {
-      font-size: 52px;
-      margin: 0;
-      // font-weight: 400;
-      font-style: italic;
-    }
-    .foc_amount {
-      font-size: 25px;
-      margin: 0;
-      font-style: italic;
-    }
+    left: 21%;
+    bottom: 13.1%;
+    font-size: 40px;
+    font-family: "Kanit";
+    color: #ffffff;
   }
-}
 
-.foc_img_container {
-  position: absolute;
-  z-index: 25;
-  left: 21%;
-  bottom: 2.3%;
-  width: 270px;
-  font-family: "AvantGardeITCbyBT";
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transform: rotate(5deg);
-  &.supplement {
-    left: 20.5%;
-    bottom: 8.3%;
-    width: 270px;
+  .foc_amount {
+    position: absolute;
+    width: 110px;
+    height: 80px;
+    left: 8.5%;
+    top: 26.9%;
+    font-size: 25px;
+    font-family: "Kanit";
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
   }
 }

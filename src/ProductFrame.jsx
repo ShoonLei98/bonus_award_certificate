@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
-import ProductFrameCertificate from './feature/may_bonus_frames/ProductFrameCertificate';
 import BonusReportColor from './data/may/BonusReportColor.json'
+import SeptemberProductFrame from './feature/may_bonus_frames/SeptemberProductFrame';
 const ProductFrame = () => {
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false); 
@@ -18,9 +18,9 @@ const ProductFrame = () => {
             const response = await axios.post('http://localhost:8000/api/admin/bonus-awards/all-details',
             {
                 sale_region : region ,
-                bonus_date : '2023-07-01',
-                agent_code : 'FB-000005',
-                //  product_id: 20
+                bonus_date : '2023-08-01',
+                agent_code : 'FB-009690',
+                 product_id: 1
             }, 
             {
                 headers : {
@@ -38,7 +38,7 @@ const ProductFrame = () => {
   return (
     <div className='report_card_list_container'>
       { loading ? "Loading..." :  product.map((product) => (
-        <ProductFrameCertificate key={product.product_id}
+        <SeptemberProductFrame key={product.product_id}
           info={ product } 
           color={ BonusReportColor.find(color => (color.product_id === product.product_id)) } 
           region={region}
