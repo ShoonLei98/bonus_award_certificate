@@ -10,7 +10,7 @@ export default function BonusFrame(){
     const [loading, setLoading] = useState(false); 
     const [error, setError] = useState(false); 
     // const token = '134072|GGkpvHyJqIF8cAUvFx1ykDcokrq5YpyHDBPwdnzB';
-    const token = '134544|J1cQX1wVa0lCm41HjLtzrnQVihC0aLyU4Rgyj6CJ';
+    const token = '134561|BnTcimR2ijlRE75rbTujrhCRD6M64z6VP9jBFlDu';
     // const bonusReportColor = BonusReportColor.find(color => (color.product_id === 0));
 
     useEffect(() => {
@@ -26,7 +26,7 @@ export default function BonusFrame(){
             {
                 sale_region : region,
                 bonus_date : '2023-09-01',
-                agent_code : 'FB-000695',
+                agent_code : 'FB-023189',
                 page: 1,
                 row_count: 100
             }, 

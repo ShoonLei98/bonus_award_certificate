@@ -482,43 +482,20 @@
   src: url('./assets/fonts/october_all_frames/BMKING010-BOLD.TTF');
 }
 
-/* @font-face {
-  font-family: "fradm";
-  src: url('./assets//fonts/october_all_frames/FRADM.TTF');
-}
-
-@font-face {
-  font-family: "fradmcn";
-  src: url('./assets//fonts/october_all_frames/FRADMCN.TTF');
-} */
-
 @font-face {
   font-family: "fradmit";
   src: url('./assets//fonts/october_all_frames/FRADMIT.TTF');
 }
 
-/* @font-face {
-  font-family: "frahv";
-  src: url('./assets//fonts/october_all_frames/FRAHV.TTF');
+/* november all frame  */
+@font-face {
+  font-family: "masterpiece_voval";
+  src: url('./assets/fonts/november_all_frames/MVO_.TTF');
 }
 
 @font-face {
-  font-family: "frahvit";
-  src: url('./assets//fonts/october_all_frames/FRAHVIT.TTF');
+  font-family: "kanit_regular";
+  src: url('./assets/fonts/november_all_frames/KANIT-REGULAR.TTF');
 }
 
-@font-face {
-  font-family: "framd";
-  src: url('./assets//fonts/october_all_frames/FRAMD.TTF');
-}
-
-@font-face {
-  font-family: "framdcn";
-  src: url('./assets//fonts/october_all_frames/FRAMDCN.TTF');
-}
-
-@font-face {
-  font-family: "framdit";
-  src: url('./assets//fonts/october_all_frames/FRAMDIT.TTF');
-} */
 
