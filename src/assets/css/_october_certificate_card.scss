@@ -1,0 +1,378 @@
+/** all frame report card */
+.bonus-report-card-container {
+  position: relative;
+  width: 2480px;
+  height: 3508px;
+
+  .report-frame {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+
+  .bonus-report-info-container {
+    z-index: 25;
+    .agent-profile-container {
+      position: absolute;
+      z-index: -1;
+      width: 780px;
+      height: 1083px;
+      top: 34.9%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+
+      .agent-profile {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .bonus-month {
+      position: absolute;
+      top: 14%;
+      transform: translate(-50%, -50%);
+      z-index: inherit;
+      font-family: "FontsFreeNetMontserratBoldltalic";
+      color: #ffffff;
+      font-size: 70px;
+      font-weight: bold;
+      left: 50.1%;
+      width: 90rem;
+      text-align: center;
+      height: 8rem;
+    }
+
+    .bonus-level {
+      position: absolute;
+      top: 16%;
+      left: 51%;
+      transform: translate(-50%, -50%);
+      z-index: inherit;
+      font-size: 70px;
+      font-family: "FontsFreeNetMontserratBoldltalic";
+      font-weight: bold;
+      width: 90rem;
+      height: 8rem;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .agent-code {
+      position: absolute;
+      z-index: 10;
+      top: 34%;
+      left: 29%;
+      transform: translate(-50%, -50%);
+      font-size: 60px;
+      font-family: "fradmit";
+      width: 350px;
+      height: 100px;
+      text-align: center;
+      color: #fcd556;
+      //   background-color: #000c35;
+      &.prefix-name {
+        top: 31%;
+        left: 29%;
+        width: auto;
+        height: auto;
+        font-size: 85px;
+        font-family: "fradmit";
+      }
+    }
+
+    .agent-name {
+      position: absolute;
+      z-index: inherit;
+      top: 51.6%;
+      transform: translate(0, -50%);
+      font-family: "galada";
+      width: 90%;
+      height: 240px;
+      text-align: center;
+      left: 6%;
+      font-weight: normal;
+      color: #ffc10a;
+      text-shadow: -1px 9px 9px #7b7676;
+    }
+
+    .award-amount {
+      position: absolute;
+      z-index: inherit;
+      top: 57.6%;
+      left: 27.7%;
+      font-size: 130px;
+      width: 69rem;
+      height: 10rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "bmking010_bold";
+      color: #ffc10a;
+      font-size: 85px;
+      font-weight: bold;
+      .amount-name {
+      }
+      .amount-value {
+        font-size: 85px;
+      }
+    }
+
+    .bonus-product-list-less-eight {
+      position: absolute;
+      z-index: 12;
+      top: 81.4%;
+      left: 49.4%;
+      transform: translate(-50%, -48%);
+      display: flex;
+      flex-direction: column;
+      row-gap: 52px;
+      width: 1940px;
+      height: 1050px;
+      font-family: "MontserratRegular";
+      color: #000c35;
+      //   background-color: #a8b6e3;
+      .product-info-row {
+        top: 78;
+        width: 100%;
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        .product-name {
+          width: 100%;
+          text-align: right;
+        }
+      }
+    }
+
+    .bonus-product-list-more-eight {
+      position: absolute;
+      z-index: 12;
+      top: 84.8%;
+      left: 49%;
+      transform: translate(-50%, -48%);
+      display: flex;
+      flex-direction: column;
+      //   align-items: center;
+      // justify-content: center;
+      row-gap: 40px;
+      width: 1800px;
+      height: 1170px;
+      font-family: "MontserratRegular";
+      color: #000c35;
+      .product-info-row {
+        width: 100%;
+        font-size: 50px;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        .product-name {
+          width: 100%;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+/** product report card */
+.product_report_card_container {
+  position: relative;
+  width: 1200px;
+  height: 1500px;
+  .report_frame {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+
+  .agent_profile {
+    position: absolute;
+    width: 300px;
+    height: 383px;
+    top: 13.9%;
+    left: 18.1%;
+    z-index: -1;
+    // transform: translate(-50%, -50%);
+    // z-index: 12;
+    // transform: rotate(7.7deg);
+    object-fit: cover;
+  }
+  .bonus_report_info_container {
+    z-index: 25;
+
+    .bonus_month {
+      position: absolute;
+      top: 9.4%;
+      left: 16.2%;
+      font-size: 50px;
+      z-index: inherit;
+      font-family: "Allenoire_Free_Personal";
+      color: #032968;
+      &.tooth_paste {
+        top: 350px;
+        left: 8%;
+      }
+      text-shadow: 1px 1px 2px #ffffff;
+    }
+
+    .bonus_level {
+      position: absolute;
+      top: 10.4%;
+      left: 8.6%;
+      width: 800px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      z-index: inherit;
+      font-size: 50px;
+      font-family: "Allenoire_Free_Personal";
+      color: #032968;
+      font-weight: normal;
+    }
+
+    .agent_name {
+      position: absolute;
+      z-index: inherit;
+      top: 26.6%;
+      left: 9.5%;
+      font-family: "Allenoire_Free_Personal";
+      display: flex;
+      justify-content: center;
+      width: 730px;
+      height: 70px;
+      font-weight: normal;
+      color: #032968;
+      box-sizing: border-box;
+      line-height: 60px;
+    }
+
+    .agent_code {
+      position: absolute;
+      z-index: inherit;
+      top: 30.1%;
+      left: 19.3%;
+      font-size: 43px;
+      font-family: "Allenoire_Free_Personal";
+      text-align: center;
+      color: #032968;
+    }
+
+    .bonus_qty_container {
+      position: absolute;
+      z-index: inherit;
+      top: 34.6%;
+      left: 19.7%;
+      font-family: "Allenoire_Free_Personal";
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      margin: 0;
+      color: #593d16;
+      line-height: 55px;
+      &.toothpaste {
+        left: 37.9%;
+      }
+      .bonus_month_quantity {
+        font-size: 55px;
+        margin: 0;
+      }
+      .bonus_quantity {
+        font-size: 34px;
+        margin: 0;
+        font-weight: bold;
+      }
+    }
+
+    .award_amount {
+      position: absolute;
+      z-index: inherit;
+      top: 32.4%;
+      left: 33.4%;
+      font-size: 50px;
+      font-family: "Acumin_concept";
+      color: #ffffff;
+    }
+    .award_currency {
+      position: absolute;
+      z-index: inherit;
+      // bottom: 340px;
+      font-size: 50px;
+      font-family: "Acumin_concept";
+      // margin-left: 3px;
+      text-indent: 7px;
+      letter-spacing: -3px;
+    }
+
+    .money_image {
+      position: absolute;
+      z-index: inherit;
+      top: 35.8%;
+      left: 32.5%;
+      width: 300px;
+      height: 200px;
+    }
+  }
+
+  .foc_img_container {
+    position: absolute;
+    z-index: 25;
+    left: 11%;
+    top: 37.8%;
+    width: 130px;
+    height: 130px;
+    font-family: "Kanit";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &.snail_wish {
+      left: 11.9%;
+      top: 38%;
+    }
+  }
+
+  .foc_img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .foc_amount_image_container {
+    // background-color: #000000;
+    position: absolute;
+    z-index: 25;
+    left: 10%;
+    bottom: 0px;
+    width: 250px;
+  }
+
+  .foc_name {
+    position: absolute;
+    z-index: inherit;
+    left: 21%;
+    bottom: 13.1%;
+    font-size: 40px;
+    font-family: "Kanit";
+    color: #ffffff;
+  }
+
+  .foc_amount {
+    position: absolute;
+    width: 110px;
+    height: 80px;
+    left: 8.5%;
+    top: 26.9%;
+    font-size: 25px;
+    font-family: "Kanit";
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+}
