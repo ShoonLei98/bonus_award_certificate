@@ -1,7 +1,8 @@
 .product_trip_certificate_container {
   position: relative;
-  width: 1500px;
-  height: 1800px;
+  width: 2480px;
+  height: 3508px;
+
   .trip_certificate_card {
     width: "100%";
     height: "100%";
@@ -12,8 +13,8 @@
   .bonus_month {
     z-index: 10;
     position: absolute;
-    left: 52%;
-    top: 13%;
+    left: 50.7%;
+    top: 10.5%;
     color: #ffffff;
     font-family: "NexaBold";
     font-size: 55px;
@@ -22,78 +23,77 @@
   }
 
   .agent_profile_container {
-    width: 522px;
-    height: 853px;
+    width: 921px;
+    height: 1206px;
     position: absolute;
     z-index: 9;
-    left: 5%;
-    top: 25.5%;
+    left: 32%;
+    top: 8%;
     object-fit: cover;
     opacity: 0.9;
-    transform: rotate(7deg);
-    background-color: #12679c;
     .agent_profile {
       width: 100%;
       height: 100%;
     }
   }
   .agent_name {
+    z-index: 10;
     position: absolute;
-    width: 792px;
-    height: 100px;
-    top: 41%;
-    left: 42.1%;
+    width: 1500px;
+    height: 170px;
+    top: 41.4%;
+    left: 19.6%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: "Bebas-Regular";
-    text-transform: uppercase;
-    font-size: 90px;
-    font-weight: 500;
-    z-index: 13;
-    color: #000000;
+    font-family: "Bask_old_face";
+    color: #1c6f86;
     line-height: 1px;
+    text-shadow: -6px -6px 0 #fff, 0 -6px 0 #fff, 6px -6px 0 #fff, 6px 0 0 #fff,
+      6px 6px 0 #fff, 0 6px 0 #fff, -6px 6px 0 #fff, -6px 0 0 #fff,
+      0 6px 16px #000000;
   }
   .agent_code {
-    font-family: "Bebas-Regular";
+    font-family: "Bask_old_face";
     position: absolute;
     z-index: 13;
-    top: 46%;
-    font-size: 75px;
-    font-weight: 500;
-    right: 24.7%;
-    color: #000000;
+    top: 47.4%;
+    font-size: 127px;
+    left: 38.7%;
+    color: #ffffff;
   }
   .amount {
-    font-family: "SM04_MOON-REGULAR";
+    font-family: "bmking010_bold";
     position: absolute;
     bottom: 22%;
     z-index: 13;
-    color: #ffffff;
-    font-size: 60px;
+    color: #1c6f86;
+    font-size: 90px;
     text-align: center;
     &.prize {
-      width: 500px;
-      left: 50.8%;
-      transform: translate(-39%, -100%);
+      width: 640px;
+      left: 35.2%;
+      transform: translate(-43%, 50%);
       word-spacing: -0.5rem;
     }
     &.ticket {
-      width: 250px;
-      right: 8%;
-      transform: translate(-10%, -100%);
+      width: 500px;
+      right: 18%;
+      transform: translate(-33%, 50%);
+      word-spacing: -0.5rem;
     }
   }
   .product_group_qty {
-    font-family: "Cormorant-VariableFont", "serif";
+    font-family: "Bask_old_face";
     position: absolute;
     z-index: 13;
-    bottom: 9%;
-    left: 66%;
-    font-size: 70px;
-    font-weight: 700;
+    bottom: 5.6%;
+    right: 29%;
+    font-size: 90px;
+    font-weight: 500;
     width: 500px;
-    color: #003c48;
+    height: 120px;
+    color: #000000;
     text-align: center;
     &.toothpaste {
       left: 38%;

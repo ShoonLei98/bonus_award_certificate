@@ -498,4 +498,8 @@
   src: url('./assets/fonts/november_all_frames/KANIT-REGULAR.TTF');
 }
 
-
+/* font for november three months trips */
+@font-face {
+  font-family: "Bask_old_face";
+  src: url('./assets/fonts/three_months_trips/BASKVILL.ttf');
+}
