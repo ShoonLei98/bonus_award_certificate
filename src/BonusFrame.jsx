@@ -2,15 +2,15 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 // import AllFrameCertificate from "./feature/may_bonus_frames/AllFrameCertificate";
 // import BonusReportColor from './data/may/JulyBonusReportColor.json';
-import NovemberAllFrameCertificate from "./feature/may_bonus_frames/NovemberAllFrameCertificate";
+// import NovemberAllFrameCertificate from "./feature/may_bonus_frames/NovemberAllFrameCertificate";
+import DecemberAllFrame from "./feature/may_bonus_frames/DecemberAllFrame";
 
 export default function BonusFrame(){
 
     const [bonus, setBonus] = useState();
     const [loading, setLoading] = useState(false); 
     const [error, setError] = useState(false); 
-    // const token = '134072|GGkpvHyJqIF8cAUvFx1ykDcokrq5YpyHDBPwdnzB';
-    const token = '134561|BnTcimR2ijlRE75rbTujrhCRD6M64z6VP9jBFlDu';
+    const token = '134576|6IhRwxMoN1ym69hItnhj2tEp7nEsKWk17DMt6ioP';
     // const bonusReportColor = BonusReportColor.find(color => (color.product_id === 0));
 
     useEffect(() => {
@@ -25,8 +25,8 @@ export default function BonusFrame(){
             const response = await axios.post(`${monthlyURL}`,
             {
                 sale_region : region,
-                bonus_date : '2023-09-01',
-                agent_code : 'FB-023189',
+                bonus_date : '2023-07-01',
+                agent_code : 'FB-000005',
                 page: 1,
                 row_count: 100
             }, 
@@ -48,7 +48,7 @@ export default function BonusFrame(){
     return (
         <div className="report_card_list_container">
           { loading ? "Loading..." : bonus?.map((bonus) =>(
-            <NovemberAllFrameCertificate key={bonus?.id} info={bonus} region={region}/>
+            <DecemberAllFrame key={bonus?.id} info={bonus} region={region}/>
           ) 
           )}
 

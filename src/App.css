@@ -58,20 +58,7 @@
   src: url('./assets/fonts/april_frames/BahamasBold.ttf');
 }
 
-@font-face {
-  font-family: "BMKing001-Bold";
-  src: url('./assets/fonts/april_frames/BMKing001-Bold.ttf');
-}
 
-@font-face {
-  font-family: "BMKing001-Light";
-  src: url('./assets/fonts/april_frames/BMKing001-Light.ttf');
-}
-
-@font-face {
-  font-family: "BMKing001-Regular";
-  src: url('./assets/fonts/april_frames/BMKing001-Regular.ttf');
-}
 
 @font-face {
   font-family: "BMKing004-Regular";
@@ -502,4 +489,50 @@
 @font-face {
   font-family: "Bask_old_face";
   src: url('./assets/fonts/three_months_trips/BASKVILL.ttf');
+}
+
+/* font for december all frames  */
+@font-face {
+  font-family: "AbrilFatface_Regular";
+  src: url('./assets/fonts/december_all_frame/AbrilFatface-Regular.otf');
+}
+
+@font-face {
+  font-family: "Ace";
+  src: url('/src/assets/fonts/december_all_frame/Ace.ttf');
+}
+
+@font-face {
+  font-family: "F53B";
+  src: url('./assets/fonts/december_all_frame/F53B.TTF');
+}
+
+@font-face {
+  font-family: "F53BI";
+  src: url('./assets/fonts/december_all_frame/F53BI.TTF');
+}
+
+@font-face {
+  font-family: "F53I";
+  src: url('./assets/fonts/december_all_frame/F53I.TTF');
+}
+
+@font-face {
+  font-family: "F53N";
+  src: url('./assets/fonts/december_all_frame/F53N.TTF');
+}
+
+@font-face {
+  font-family: "BMKing001-Bold";
+  src: url('./assets/fonts/april_frames/BMKing001-Bold.ttf');
+}
+
+@font-face {
+  font-family: "BMKing001-Light";
+  src: url('./assets/fonts/april_frames/BMKing001-Light.ttf');
+}
+
+@font-face {
+  font-family: "BMKing001-Regular";
+  src: url('./assets/fonts/april_frames/BMKing001-Regular.ttf');
 }
