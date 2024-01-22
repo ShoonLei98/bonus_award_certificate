@@ -10,7 +10,6 @@ const DecemberAllFrame = (props) => {
   const { info, region  } = props  
   const bonus_month = info?.bonus_month?.split(' ')[0]
   const bonus_year = info?.bonus_month?.split(' ')[1]
-  console.log("infooooo", info);
 
   const agent_name_length = info?.agent_name?.length
   const name_size =

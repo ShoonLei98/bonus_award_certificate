@@ -536,3 +536,18 @@
   font-family: "BMKing001-Regular";
   src: url('./assets/fonts/april_frames/BMKing001-Regular.ttf');
 }
+
+@font-face {
+  font-family: "Aleo_Medium";
+  src: url('./assets/fonts/december_product_frames/Aleo-Medium.ttf');
+}
+
+@font-face {
+  font-family: "SM04_Moon_Regular";
+  src: url('./assets/fonts/december_product_frames/SM04_Moon-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Voire_Display_Mdedium";
+  src: url('./assets/fonts/december_product_frames/Voire_Display_Medium.ttf');
+}

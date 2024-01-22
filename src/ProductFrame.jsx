@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import BonusReportColor from './data/may/BonusReportColor.json'
-import SeptemberProductFrame from './feature/may_bonus_frames/SeptemberProductFrame';
+import DecemberProudctFrame from './feature/may_bonus_frames/DecemberProductFrame';
 const ProductFrame = () => {
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false); 
     const [error, setError] = useState(false); 
-    const token = '122129|bE2e22U4z31XDboryHgwVXvfft8loR0IddjMun35';
+    const token = '134584|vwCpymWirY11gQ6BpirlLxliDaN9TihSH74gs0fg';
     // const bonusColor = BonusReportColor.find(color => (color.product_id === 0));
     useEffect(() => {
         getProductFrame()
@@ -17,10 +17,14 @@ const ProductFrame = () => {
             setLoading(true)
             const response = await axios.post('http://localhost:8000/api/admin/bonus-awards/all-details',
             {
-                sale_region : region ,
-                bonus_date : '2023-08-01',
-                agent_code : 'FB-009690',
-                 product_id: 1
+              sale_region :'MM',
+              bonus_date :'2023-11-01',
+              group_id : 23,
+              // agent_code :'FB-023189',
+              // agent_code : 'FB-000004',
+              agent_code : 'FB-000005',
+              page :1,
+              row_count :15,
             }, 
             {
                 headers : {
@@ -38,7 +42,7 @@ const ProductFrame = () => {
   return (
     <div className='report_card_list_container'>
       { loading ? "Loading..." :  product.map((product) => (
-        <SeptemberProductFrame key={product.product_id}
+        <DecemberProudctFrame key={product.product_id}
           info={ product } 
           color={ BonusReportColor.find(color => (color.product_id === product.product_id)) } 
           region={region}

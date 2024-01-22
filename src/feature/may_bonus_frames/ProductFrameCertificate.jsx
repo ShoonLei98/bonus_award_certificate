@@ -17,7 +17,7 @@ const focProducts = {
   12: 'supplement',
 }
 
-const ProductReport = (props) => {
+const DecemberProductFrame = (props) => {
 
   const { info, color, region } = props
 
@@ -121,11 +121,11 @@ const ProductReport = (props) => {
   )
 }
 
-ProductReport.propTypes = {
+DecemberProductFrame.propTypes = {
   info: PropTypes.object.isRequired,
   color: PropTypes.object.isRequired,
   ref: PropTypes.object.isRequired,
   region: PropTypes.string.isRequired,
 }
 
-export default React.forwardRef(ProductReport)
+export default React.forwardRef(DecemberProductFrame)
