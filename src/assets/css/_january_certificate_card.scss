@@ -1,0 +1,394 @@
+/** all frame report card */
+.bonus-report-card-container {
+  position: relative;
+  width: 2480px;
+  height: 3508px;
+
+  .report-frame {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+
+  .bonus-report-info-container {
+    z-index: 25;
+    .agent-profile-container {
+      position: absolute;
+      z-index: -1;
+      width: 910px;
+      height: 910px;
+      top: 36.1%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      align-items: center;
+
+      .agent-profile {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+    }
+
+    .bonus-month {
+      position: absolute;
+      font-family: "Allenoire_Free_Personal";
+      top: 15%;
+      transform: translate(-50%, -50%);
+      z-index: inherit;
+      color: #ffffff;
+      font-size: 122px;
+      left: 50%;
+      width: 85.6rem;
+      text-align: center;
+      height: 8rem;
+    }
+
+    .bonus-level {
+      position: absolute;
+      top: 17%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: inherit;
+      font-family: "Allenoire_Free_Personal";
+      color: #ffffff;
+      font-size: 122px;
+      font-weight: normal;
+      width: 90rem;
+      height: 8rem;
+      text-align: center;
+      letter-spacing: 1px;
+    }
+
+    .agent-code {
+      position: absolute;
+      z-index: 10;
+      top: 39.5%;
+      right: 6.6%;
+      transform: translate(-50%, -50%);
+      font-size: 62px;
+      font-family: "Allenoire_Free_Personal";
+      width: 305px;
+      height: 100px;
+      text-align: center;
+      color: #442e0e;
+      font-weight: 400;
+      letter-spacing: 1px;
+      &.prefix-name {
+        top: 36.7%;
+        right: 11.4%;
+        width: auto;
+        height: auto;
+        font-size: 141px;
+        font-family: "Allenoire_Free_Personal";
+      }
+    }
+
+    .agent-name {
+      position: absolute;
+      z-index: inherit;
+      //   top: 51.6%;
+      transform: translate(0, -50%);
+      font-family: "Allenoire_Free_Personal";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 92%;
+      height: 180px;
+      text-align: center;
+      left: 4%;
+      font-weight: normal;
+      color: #ffffff;
+      text-shadow: -4.474px 6.632px 5px #131212;
+    }
+
+    .award-amount {
+      position: absolute;
+      z-index: inherit;
+      top: 57.3%;
+      left: 25.2%;
+      width: 77rem;
+      height: 10rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "masterpiece_voval";
+      color: #231f20;
+      letter-spacing: 5px;
+      font-size: 130px;
+    }
+
+    .bonus-product-list-less-three {
+      position: absolute;
+      z-index: 12;
+      top: 81%;
+      left: 50%;
+      transform: translate(-50%, -48%);
+      width: 1950px;
+      height: 1140px;
+      font-family: "kanit_regular";
+      color: #2c2929;
+      font-weight: 400;
+      font-size: 77px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 25px;
+      .product-info-row {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        .product-name {
+          width: 100%;
+          text-align: right;
+        }
+      }
+    }
+
+    .bonus-product-list-less-eight {
+      position: absolute;
+      z-index: 12;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -48%);
+      text-align: center;
+      width: 1950px;
+      height: 1140px;
+      font-family: "kanit_regular";
+      color: #2c2929;
+      font-weight: 400;
+      font-size: 68px;
+      line-height: 85px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 25px;
+      .product-info-row {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        .product-name {
+          width: 100%;
+          text-align: right;
+        }
+      }
+    }
+
+    .bonus-product-list-more-eight {
+      position: absolute;
+      z-index: 12;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -48%);
+      text-align: center;
+      width: 1950px;
+      height: 1140px;
+      font-family: "kanit_regular";
+      color: #2c2929;
+      font-weight: 500;
+      font-size: 57px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 25px;
+      .product-info-row {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 45% 55%;
+        .product-name {
+          width: 100%;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+/** product report card */
+.product_report_card_container {
+  position: relative;
+  width: 1200px;
+  height: 1697px;
+  .report_frame {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+
+  .agent_profile {
+    position: absolute;
+    width: 336px;
+    height: 494px;
+    top: 18.5%;
+    left: 36.4%;
+    z-index: -1;
+    object-fit: cover;
+  }
+  .bonus_report_info_container {
+    z-index: 25;
+
+    .bonus_month {
+      position: absolute;
+      top: 10.8%;
+      left: 36.5%;
+      font-size: 43px;
+      z-index: inherit;
+      font-family: "Aleo_Medium";
+      color: #ffffff;
+      font-weight: lighter;
+    }
+
+    .bonus_level {
+      position: absolute;
+      top: 12.7%;
+      left: 16.4%;
+      width: 800px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      z-index: inherit;
+      font-size: 43px;
+      font-family: "Aleo_Medium";
+      color: #ffffff;
+      font-weight: lighter;
+    }
+
+    .agent_name {
+      position: absolute;
+      z-index: inherit;
+      top: 45.4%;
+      left: 9.3%;
+      font-family: "Voire_Display_Mdedium";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 1000px;
+      height: 100px;
+      color: #ffffff;
+      letter-spacing: -7px;
+      font-weight: lighter;
+    }
+
+    .agent_code {
+      position: absolute;
+      z-index: inherit;
+      top: 53.7%;
+      left: 39.4%;
+      font-size: 43px;
+      font-family: "Voire_Display_Mdedium";
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .bonus_qty_container {
+      position: absolute;
+      z-index: inherit;
+      bottom: 12%;
+      left: 42%;
+      font-family: "Aleo_Medium";
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 180px;
+      color: #ffffff;
+      line-height: 40px;
+      &.beaute_cafe {
+        left: 41.6%;
+      }
+      .bonus_month_quantity {
+        font-size: 45px;
+        margin: 0;
+        font-weight: 100;
+      }
+      .bonus_quantity {
+        font-size: 30px;
+        margin: 0;
+        font-weight: 100;
+      }
+    }
+
+    .award_amount {
+      position: absolute;
+      z-index: inherit;
+      bottom: 5.9%;
+      right: 22%;
+      font-size: 35px;
+      font-family: "SM04_Moon_Regular";
+      // color: #000000;
+      font-weight: 600;
+    }
+    .award_currency {
+      position: absolute;
+      z-index: inherit;
+      font-size: 35px;
+      font-family: "SM04_Moon_Regular";
+      text-indent: 7px;
+      letter-spacing: -5px;
+      font-weight: 600;
+    }
+
+    .money_image {
+      position: absolute;
+      z-index: inherit;
+      bottom: 11.6%;
+      right: 20%;
+      width: 150px;
+      height: 82px;
+    }
+  }
+
+  .foc_img_container {
+    position: absolute;
+    z-index: 25;
+    left: 30%;
+    bottom: 10.5%;
+    width: 90px;
+    height: 90px;
+    font-family: "Aleo_Medium";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &.snail_wish {
+      left: 30%;
+      bottom: 10.5%;
+    }
+  }
+
+  .foc_img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .foc_amount_image_container {
+    position: absolute;
+    z-index: 25;
+    left: 10%;
+    bottom: 0px;
+    width: 250px;
+  }
+
+  .foc_name {
+    position: absolute;
+    z-index: inherit;
+    left: 22%;
+    bottom: 23%;
+    font-size: 25px;
+    font-family: "Aleo_Medium";
+    color: #ffffff;
+  }
+
+  .foc_amount {
+    position: absolute;
+    width: 110px;
+    height: 80px;
+    top: 33%;
+    font-size: 18px;
+    font-family: "Aleo_Medium";
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+  }
+}

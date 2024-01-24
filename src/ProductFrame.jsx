@@ -6,7 +6,7 @@ const ProductFrame = () => {
     const [product, setProduct] = useState([]);
     const [loading, setLoading] = useState(false); 
     const [error, setError] = useState(false); 
-    const token = '134584|vwCpymWirY11gQ6BpirlLxliDaN9TihSH74gs0fg';
+    const token = '154684|FboGlTI5enGe7Nc4EgwlYcWmP9z1jucnA4jvu46q';
     // const bonusColor = BonusReportColor.find(color => (color.product_id === 0));
     useEffect(() => {
         getProductFrame()

@@ -5,7 +5,7 @@ import "./assets/css/certificate.scss";
 import BonusFrame from "./BonusFrame";
 import ProductFrame from "./ProductFrame";
 import SixMonthsBonusFrames from "./SixMonthsBonusFrames";
-import "./assets/css/_december_certificate_card.scss";
+import "./assets/css/_january_certificate_card.scss";
 // import "./assets/css/_three_months_november_certificate_card.scss";
 // import "./assets/css/_three_months_august_cerfificate_card.scss";
 import ThreeMonthsBonusFrames from "./ThreeMonthsBonusFrames";
