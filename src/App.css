@@ -551,3 +551,24 @@
   font-family: "Voire_Display_Mdedium";
   src: url('./assets/fonts/december_product_frames/Voire_Display_Medium.ttf');
 }
+
+/* january product frame */
+@font-face {
+  font-family: "poppins_regular";
+  src: url('./assets/fonts/january_product_frames/Poppins-Regular.otf');
+}
+
+@font-face {
+  font-family: "Poppins_extra_bold";
+  src: url('./assets/fonts/january_product_frames/Poppins-ExtraBold.otf');
+}
+
+@font-face {
+  font-family: "rosamby_regular";
+  src: url('./assets/fonts/january_product_frames/rosamby-rosamby-regular-400.otf');
+}
+
+@font-face {
+  font-family: "SM01_watokelay_regular";
+  src: url('./assets/fonts/january_product_frames/SM01_WaTokeLay-Regular.ttf');
+}
