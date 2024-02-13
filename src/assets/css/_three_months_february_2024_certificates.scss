@@ -1,0 +1,137 @@
+.product_trip_certificate_container {
+  position: relative;
+  width: 2480px;
+  height: 3508px;
+
+  .trip_certificate_card {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+
+  .bonus_month {
+    z-index: 10;
+    position: absolute;
+    left: 50.7%;
+    top: 10.5%;
+    color: #ffffff;
+    font-family: "NexaBold";
+    font-size: 55px;
+    transform: rotate(-6deg);
+    filter: drop-shadow(3px 3px 5px rgba(1, 65, 77, 0.64));
+  }
+
+  .agent_profile_container {
+    width: 921px;
+    height: 1206px;
+    position: absolute;
+    z-index: 9;
+    left: 32%;
+    top: 8%;
+    object-fit: cover;
+    opacity: 0.9;
+    .agent_profile {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .agent_name {
+    z-index: 10;
+    position: absolute;
+    width: 1500px;
+    height: 170px;
+    top: 41.4%;
+    left: 19.6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Bask_old_face";
+    color: #3ba6a2;
+    line-height: 1px;
+    text-shadow: -6px -6px 0 #fff, 0 -6px 0 #fff, 6px -6px 0 #fff, 6px 0 0 #fff,
+      6px 6px 0 #fff, 0 6px 0 #fff, -6px 6px 0 #fff, -6px 0 0 #fff,
+      0 6px 16px #000000;
+  }
+  .agent_code {
+    font-family: "Bask_old_face";
+    position: absolute;
+    z-index: 13;
+    top: 47.4%;
+    font-size: 127px;
+    left: 38.7%;
+    width: 620px;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3ba6a2;
+  }
+
+  .amount {
+    font-family: "bmking010_bold";
+    position: absolute;
+    z-index: 13;
+    color: #3ba6a2;
+    text-align: center;
+    bottom: 24.6%;
+    &.prize {
+      width: 640px;
+      height: 170px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      left: 31.8%;
+      transform: translate(-43%, 50%);
+      word-spacing: -0.5rem;
+      font-size: 88px;
+    }
+    &.ticket {
+      width: 500px;
+      height: 170px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right: 13.5%;
+      transform: translate(-33%, 50%);
+      word-spacing: -0.5rem;
+      font-size: 97px;
+    }
+  }
+  .product_group_qty {
+    font-family: "Bask_old_face";
+    position: absolute;
+    z-index: 13;
+    bottom: 5.6%;
+    left: 52.1%;
+    font-size: 113px;
+    // font-weight: 500;
+    width: 500px;
+    height: 120px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .three_months_range {
+    position: absolute;
+    color: #1f9996;
+    z-index: 13;
+    // width: 100px;
+    font-family: "Montserrat_VariableFont_wght";
+    right: 130px;
+    bottom: 40px;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    text-align: right;
+    line-height: 50px;
+    .trip_months {
+      font-size: 45px;
+    }
+    .year {
+      font-weight: bold;
+      font-size: 55px;
+      line-height: 80px;
+    }
+  }
+}

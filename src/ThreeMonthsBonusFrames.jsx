@@ -2,15 +2,14 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 // import AllFrameCertificate from "./feature/may_bonus_frames/JulyAllFrameCertificate";
 // import BonusReportColor from './data/may/JulyBonusReportColor.json';
-import TripProductReport from "./feature/three_months_frames/NovemberThreeMonthsFrames";
-import NovemberThreeMonthsFrames from "./feature/three_months_frames/NovemberThreeMonthsFrames";
+import NovemberThreeMonthsFrames from "./feature/three_months_frames/February2024ThreeMonthsFrames";
 
 export default function BonusFrame(){
 
     const [bonus, setBonus] = useState();
     const [loading, setLoading] = useState(false); 
     const [error, setError] = useState(false); 
-    const token = '134566|RvQqBvdkSj3hkK3BQ88BrTNFY5ZDr4VUYvUqBW11';
+    const token = '154691|LEMKmzu9ZXI3s29rvUZwRrM7ohC1aCTJyMwgXBOs';
     // const bonusReportColor = BonusReportColor.find(color => (color.product_id === 0));
 
     useEffect(() => {
