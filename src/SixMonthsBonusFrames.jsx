@@ -2,20 +2,20 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 // import AllFrameCertificate from "./feature/may_bonus_frames/JulyAllFrameCertificate";
 // import BonusReportColor from './data/may/JulyBonusReportColor.json';
-import AllBonusFrame from "./feature/six months frames/AllBonusFrame";
+import September2023HighestBonusFrames from "./feature/six months frames/September2023HighestBonusFrames";
 
 export default function BonusFrame(){
 
     const [bonus, setBonus] = useState();
     const [loading, setLoading] = useState(false); 
     const [error, setError] = useState(false); 
-    const token = '111127|Dd0wZBiMpXZ9ZKBprsL1wehjpVAlBKWu9vacRw6S';
+    const token = '154695|1WWtuTH8Jycuu4JLGQbCBRtvitTBuVdHUkMKPKn3';
     // const bonusReportColor = BonusReportColor.find(color => (color.product_id === 0));
 
     useEffect(() => {
         getBonusFrame()
     },[])
-    const region = 'MM'
+    const region = 'TH'
     // const sixMonthURL = 'https://api.dev.focusbeauty.net/api/admin/highest-bonus-awards/all'
     const sixMonthURL = 'http://localhost:8000/api/admin/highest-bonus-awards/all'
     const getBonusFrame = async () => {
@@ -24,8 +24,10 @@ export default function BonusFrame(){
             const response = await axios.post(`${sixMonthURL}`,
             {
                 sale_region : region,
-                bonus_date : '2023-06-01',
-                agent_id : 'FB-000005'
+                date : '2023-06-01',
+                agent_id : 'FB-009904',
+                page: 1,
+                row_count: 15,
             }, 
             {
                 headers : {
@@ -46,7 +48,7 @@ export default function BonusFrame(){
     return (
         <div className="report_card_list_container">
           { loading ? "Loading..." : bonus?.map((bonus) =>(
-            <AllBonusFrame key={bonus?.id} info={bonus} region={region}/>
+            <September2023HighestBonusFrames key={bonus?.id} info={bonus} region={region}/>
           ) 
           )}
 

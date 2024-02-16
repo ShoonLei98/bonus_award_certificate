@@ -1,0 +1,636 @@
+/** all frame report card */
+.six_months_bonus_report_card_container {
+  position: relative;
+  width: 2480px;
+  height: 3508px;
+
+  .report_frame {
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    position: absolute;
+  }
+
+  .bonus_info_container_mm {
+    z-index: 25;
+    .bonus_month {
+      position: absolute;
+      z-index: inherit;
+      font-family: "AbrilFatface_Regular";
+      font-size: 83px;
+      top: 10.5%;
+      left: 33.9%;
+      color: #dcb444;
+      font-weight: 400;
+      // text-transform: uppercase;
+    }
+
+    .bonus_level {
+      position: absolute;
+      z-index: inherit;
+      font-family: "AbrilFatface_Regular";
+      font-size: 83px;
+      // text-transform: uppercase;
+      color: #dcb444;
+      top: 12.6%;
+      left: 19.8%;
+      font-weight: 400;
+      word-spacing: 0.1rem;
+      width: 1500px;
+      height: 170px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bonus_less_ten_products {
+      z-index: 25;
+      .agent_profile {
+        position: absolute;
+        z-index: -1;
+        width: 780px;
+        height: 1140px;
+        top: 18.5%;
+        left: 34.3%;
+      }
+
+      .agent_code {
+        position: absolute;
+        z-index: inherit;
+        width: 180px;
+        height: auto;
+        top: 37.2%;
+        left: 18.7%;
+        color: #dcb444;
+        font-family: "AbrilFatface_Regular";
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        &.prefix_name {
+          top: 35%;
+          left: 18.9%;
+          font-size: 66px;
+        }
+      }
+
+      .agent_name {
+        position: absolute;
+        z-index: inherit;
+        display: flex;
+        top: 52.2%;
+        left: 1.5%;
+        width: 150rem;
+        height: 11rem;
+        align-items: center;
+        justify-content: center;
+        color: #871f24;
+        font-family: "AbrilFatface_Regular";
+        font-weight: 400;
+        // text-transform: uppercase;
+      }
+
+      .bonus_award {
+        position: absolute;
+        z-index: inherit;
+        top: 58.5%;
+        left: 23.7%;
+        font-size: 76px;
+        width: 80rem;
+        height: 140px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "w01artHouse";
+        color: #ffffff;
+        .award_amount {
+          letter-spacing: 0.3rem;
+        }
+      }
+
+      .bonus_product_list {
+        position: absolute;
+        z-index: inherit;
+        top: 63.5%;
+        left: 12%;
+        display: flex;
+        flex-direction: column;
+        width: 1800px;
+        height: 65rem;
+        font-family: "Ace";
+        color: #5e1616;
+        font-weight: 600;
+        row-gap: 9px;
+        .product_info_row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product_name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .bonus_less_nineteen_products {
+      z-index: 25;
+      .agent_profile {
+        position: absolute;
+        z-index: -1;
+        width: 709px;
+        height: 1033px;
+        top: 18.3%;
+        left: 35.7%;
+      }
+
+      .agent_code {
+        position: absolute;
+        z-index: inherit;
+        width: 180px;
+        height: auto;
+        top: 35.8%;
+        left: 20%;
+        color: #dcb444;
+        font-family: "AbrilFatface_Regular";
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        &.prefix_name {
+          top: 33.7%;
+          left: 20%;
+          font-size: 66px;
+        }
+      }
+
+      .agent_name {
+        position: absolute;
+        z-index: inherit;
+        display: flex;
+        top: 50%;
+        left: 1.5%;
+        width: 150rem;
+        height: 11rem;
+        align-items: center;
+        justify-content: center;
+        color: #871f24;
+        font-family: "AbrilFatface_Regular";
+        font-weight: 400;
+        // text-transform: uppercase;
+      }
+
+      .bonus_award {
+        position: absolute;
+        z-index: inherit;
+        top: 55.7%;
+        left: 28.7%;
+        font-size: 60px;
+        width: 65rem;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "w01artHouse";
+        color: #ffffff;
+        .award_amount {
+          letter-spacing: 0.3rem;
+        }
+      }
+
+      .bonus_product_list {
+        position: absolute;
+        z-index: inherit;
+        top: 59.2%;
+        left: 12%;
+        display: flex;
+        flex-direction: column;
+        // row-gap: 2px;
+        width: 1800px;
+        height: 73rem;
+        font-family: "Ace";
+        color: #5e1616;
+        font-weight: 600;
+        .product_info_row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product_name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .bonus_more_nineteen_products {
+      z-index: 25;
+      .agent_profile {
+        position: absolute;
+        z-index: -1;
+        width: 709px;
+        height: 1033px;
+        top: 18.3%;
+        left: 35.7%;
+      }
+
+      .agent_code {
+        position: absolute;
+        z-index: inherit;
+        width: 180px;
+        height: auto;
+        top: 35.8%;
+        left: 20%;
+        color: #dcb444;
+        font-family: "AbrilFatface_Regular";
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        &.prefix_name {
+          top: 33.7%;
+          left: 20%;
+          font-size: 66px;
+        }
+      }
+
+      .agent_name {
+        position: absolute;
+        z-index: inherit;
+        display: flex;
+        top: 50%;
+        left: 1.5%;
+        width: 150rem;
+        height: 11rem;
+        align-items: center;
+        justify-content: center;
+        color: #871f24;
+        font-family: "AbrilFatface_Regular";
+        font-weight: 400;
+      }
+
+      .bonus_award {
+        position: absolute;
+        z-index: inherit;
+        top: 55.7%;
+        left: 28.7%;
+        font-size: 60px;
+        width: 65rem;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "w01artHouse";
+        color: #ffffff;
+        .award_amount {
+          letter-spacing: 0.3rem;
+        }
+      }
+
+      .bonus_product_list {
+        position: absolute;
+        z-index: inherit;
+        top: 59%;
+        left: 12%;
+        display: flex;
+        flex-direction: column;
+        // row-gap: 2px;
+        width: 1800px;
+        height: 73rem;
+        font-family: "Ace";
+        color: #5e1616;
+        font-weight: 600;
+        .product_info_row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product_name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+
+  .bonus_info_container_th {
+    z-index: 25;
+    .bonus_month {
+      position: absolute;
+      z-index: inherit;
+      font-family: "Arno_pro";
+      font-size: 83px;
+      top: 10.5%;
+      left: 20%;
+      color: #4e0000;
+      font-weight: 400;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      width: 1500px;
+      height: 90px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bonus_level {
+      position: absolute;
+      z-index: inherit;
+      font-family: "Arno_pro";
+      font-size: 73px;
+      text-transform: uppercase;
+      color: #5a0000;
+      letter-spacing: 1px;
+      top: 12.5%;
+      left: 20%;
+      font-weight: 400;
+      width: 1500px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bonus_less_ten_products {
+      z-index: 25;
+      .agent_profile {
+        position: absolute;
+        z-index: -1;
+        width: 781px;
+        height: 1058px;
+        top: 17.2%;
+        left: 34.3%;
+      }
+
+      .agent_code {
+        position: absolute;
+        z-index: inherit;
+        width: 180px;
+        height: auto;
+        top: 36.8%;
+        left: 18.2%;
+        color: #dbb343;
+        font-family: "AbrilFatface_Regular";
+        font-size: 41px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        &.prefix_name {
+          top: 34.4%;
+          left: 18.3%;
+          font-size: 72px;
+        }
+      }
+
+      .agent_name {
+        position: absolute;
+        z-index: inherit;
+        display: flex;
+        top: 52.2%;
+        left: 1.5%;
+        width: 150rem;
+        height: 11rem;
+        align-items: center;
+        justify-content: center;
+        color: #871f24;
+        font-family: "AbrilFatface_Regular";
+        font-weight: 400;
+        // text-transform: uppercase;
+      }
+
+      .bonus_award {
+        position: absolute;
+        z-index: inherit;
+        top: 58.9%;
+        left: 30.6%;
+        font-size: 85px;
+        width: 60rem;
+        height: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "BMKing001-Bold";
+        color: #ffffff;
+        .award_amount {
+          letter-spacing: 0.3rem;
+        }
+      }
+
+      .bonus_product_list {
+        position: absolute;
+        z-index: inherit;
+        top: 66%;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+        width: 1800px;
+        height: 49rem;
+        font-family: "Ace";
+        color: #5e1616;
+        font-weight: 600;
+        row-gap: 6px;
+        .product_info_row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product_name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .bonus_less_nineteen_products {
+      z-index: 25;
+      .agent_profile {
+        position: absolute;
+        z-index: -1;
+        width: 718px;
+        height: 1035px;
+        top: 16.1%;
+        left: 35.5%;
+      }
+
+      .agent_code {
+        position: absolute;
+        z-index: inherit;
+        width: 180px;
+        height: auto;
+        top: 35%;
+        left: 18.2%;
+        color: #dcb444;
+        font-family: "AbrilFatface_Regular";
+        font-size: 41px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        &.prefix_name {
+          top: 32.7%;
+          left: 18.4%;
+          font-size: 72px;
+        }
+      }
+
+      .agent_name {
+        position: absolute;
+        z-index: inherit;
+        display: flex;
+        top: 46.4%;
+        left: 1.5%;
+        width: 150rem;
+        height: 11rem;
+        align-items: center;
+        justify-content: center;
+        color: #871f24;
+        font-family: "AbrilFatface_Regular";
+        font-weight: 400;
+        // text-transform: uppercase;
+      }
+
+      .bonus_award {
+        position: absolute;
+        z-index: inherit;
+        top: 52%;
+        left: 30.6%;
+        font-size: 85px;
+        width: 60rem;
+        height: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "BMKing001-Bold";
+        color: #ffffff;
+        .award_amount {
+          letter-spacing: 0.3rem;
+        }
+      }
+
+      .bonus_product_list {
+        position: absolute;
+        z-index: inherit;
+        top: 59%;
+        left: 14%;
+        display: flex;
+        flex-direction: column;
+        width: 1800px;
+        height: 68rem;
+        font-family: "Ace";
+        color: #5e1616;
+        font-weight: 600;
+        row-gap: 6px;
+        .product_info_row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product_name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    .bonus_more_nineteen_products {
+      z-index: 25;
+      .agent_profile {
+        position: absolute;
+        z-index: -1;
+        width: 709px;
+        height: 1033px;
+        top: 18.3%;
+        left: 35.7%;
+      }
+
+      .agent_code {
+        position: absolute;
+        z-index: inherit;
+        width: 180px;
+        height: auto;
+        top: 35.8%;
+        left: 20%;
+        color: #dcb444;
+        font-family: "AbrilFatface_Regular";
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 400;
+        &.prefix_name {
+          top: 33.7%;
+          left: 20%;
+          font-size: 66px;
+        }
+      }
+
+      .agent_name {
+        position: absolute;
+        z-index: inherit;
+        display: flex;
+        top: 46.4%;
+        left: 1.5%;
+        width: 150rem;
+        height: 11rem;
+        align-items: center;
+        justify-content: center;
+        color: #871f24;
+        font-family: "AbrilFatface_Regular";
+        font-weight: 400;
+        // text-transform: uppercase;
+      }
+
+      .bonus_award {
+        position: absolute;
+        z-index: inherit;
+        top: 52%;
+        left: 30.6%;
+        font-size: 85px;
+        width: 60rem;
+        height: 210px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "BMKing001-Bold";
+        color: #ffffff;
+        .award_amount {
+          letter-spacing: 0.3rem;
+        }
+      }
+
+      .bonus_product_list {
+        position: absolute;
+        z-index: inherit;
+        top: 59%;
+        left: 14%;
+        display: flex;
+        flex-direction: column;
+        width: 1800px;
+        height: 68rem;
+        font-family: "Ace";
+        color: #5e1616;
+        font-weight: 600;
+        row-gap: 6px;
+        .product_info_row {
+          left: 10%;
+          width: 100%;
+          display: grid;
+          grid-template-columns: 45% 55%;
+          .product_name {
+            width: 100%;
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}

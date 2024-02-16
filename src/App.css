@@ -374,6 +374,16 @@
   src: url('./assets/fonts/six_months_fonts/OT01_THITSAR-THIN.ttf');
 }
 
+@font-face {
+  font-family: "Ace_bold";
+  src: url('./assets/fonts/six_months_fonts/AceSansBold.ttf');
+}
+
+@font-face {
+  font-family: "Arno_pro";
+  src: url('./assets/fonts/six_months_fonts/ArnoPro-Regular.otf');
+}
+
 /* august all frame certificate */
 
 @font-face {
