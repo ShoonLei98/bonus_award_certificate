@@ -8,6 +8,7 @@ import SixMonthsBonusFrames from "./SixMonthsBonusFrames";
 import "./assets/css/_january_certificate_card.scss";
 import "./assets/css/_three_months_february_2024_certificates.scss";
 import ThreeMonthsBonusFrames from "./ThreeMonthsBonusFrames";
+import SixMonthsTripsFrames from "./SixMonthsTripsFrames";
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
               <Route
                 path="/trip-products"
                 element={<ThreeMonthsBonusFrames />}
+              />
+              <Route
+                path="/six-months-trips"
+                element={<SixMonthsTripsFrames />}
               />
             </Routes>
           </div>

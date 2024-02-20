@@ -60,21 +60,22 @@ console.log("info:", info);
 }
 
 const FrameProductInfo = ({ productInfo, rowCount }) => {
-    return (
-      <div className="product_info_row" style={{ fontSize: rowCount <= 10 ? '65px' : rowCount <= 19 ? '49px' : '40px' }}>
-        <span className="product_name">
-          {productInfo?.name}&nbsp;:&nbsp;
-        </span>
-        <span>
-          {productInfo?.bonus_level} ({productInfo?.product_qty}{' '}
-          {productInfo?.name === 'Snail Wish' || productInfo?.name === 'New Skiin Supplement'
-            ? 'Boxes'
-            : 'Pcs'}
-          )
-        </span>
-      </div>
-    )
-  }
+  const productFontSize =
+    rowCount <= 5 ? '48px' : rowCount <= 10 ? '60px' : rowCount <= 15 ? '58px' : '53px'
+
+  return (
+    <div className="product-info-row" style={{ fontSize: productFontSize }}>
+      <span className="product-name">{productInfo?.name}&nbsp;:&nbsp;</span>
+      <span>
+        {productInfo?.bonus_level} ({productInfo?.qty}{' '}
+        {productInfo?.name === 'Snail + New Skiin' || productInfo?.name === 'Snail Wish'
+          ? 'Boxes'
+          : 'Pcs'}
+        &nbsp;-&nbsp;Trip Tickets {productInfo?.ticket})
+      </span>
+    </div>
+  )
+}
 
   September2023HighestBonusFrames.propTypes = {
 
