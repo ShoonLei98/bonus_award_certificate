@@ -9,6 +9,7 @@ import "./assets/css/_january_certificate_card.scss";
 import "./assets/css/_three_months_february_2024_certificates.scss";
 import ThreeMonthsBonusFrames from "./ThreeMonthsBonusFrames";
 import SixMonthsTripsFrames from "./SixMonthsTripsFrames";
+import "./assets/css/_year_end_trip_certificate_card.scss";
 
 function App() {
   return (

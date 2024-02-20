@@ -1,0 +1,136 @@
+.digital_trip_certificate_container {
+  position: relative;
+  width: 1810px;
+  height: 2561px;
+
+  .trip_certificate_card {
+    width: "100%";
+    height: "100%";
+    z-index: 10;
+    position: absolute;
+  }
+
+  .agent_profile_container {
+    width: 985px;
+    height: 990px;
+    position: absolute;
+    z-index: 9;
+    left: 23.3%;
+    top: 12.4%;
+    object-fit: cover;
+    opacity: 0.9;
+    .agent_profile {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .agent_name {
+    z-index: 10;
+    position: absolute;
+    width: 1810px;
+    height: 170px;
+    top: 47%;
+    left: 0.1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Aleo_Medium";
+    font-weight: 500;
+    font-size: 130px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-shadow: -5px -5px 0 #044369, 0 -5px 0 #044369, 5px -5px 0 #044369,
+      5px 0 0 #044369, 5px 5px 0 #044369, 0 5px 0 #044369, -5px 5px 0 #044369,
+      -5px 0 0 #044369, 0 3px 16px #000000;
+    &.mm_name {
+      top: 48.7%;
+      font-size: 100px;
+    }
+    &.more_fifteen {
+      top: 48%;
+      font-size: 118px;
+    }
+    &.more_twenty {
+      top: 48.7%;
+      font-size: 95px;
+    }
+  }
+
+  .agent_code {
+    position: absolute;
+    z-index: 13;
+    top: 54.7%;
+    left: 34%;
+    font-family: "Aleo_Medium";
+    font-size: 110px;
+    font-weight: 500;
+    width: 620px;
+    height: 137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-shadow: -5px -5px 0 #044369, 0 -5px 0 #044369, 5px -5px 0 #044369,
+      5px 0 0 #044369, 5px 5px 0 #044369, 0 5px 0 #044369, -5px 5px 0 #044369,
+      -5px 0 0 #044369, 0 3px 16px #000000;
+  }
+
+  .ticket {
+    position: absolute;
+    z-index: 13;
+    color: #ffffff;
+    text-align: center;
+    top: 35.7%;
+    right: 6.3%;
+    width: 400px;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: -0.5rem;
+    font-family: "w35art-house";
+    font-size: 153px;
+    text-shadow: -3px -3px 0 #015f9f, 0 -3px 0 #015f9f, 3px -3px 0 #015f9f,
+      3px 0 0 #015f9f, 3px 3px 0 #015f9f, 0 3px 0 #015f9f, -3px 3px 0 #015f9f,
+      -3px 0 0 #015f9f, 0 3px 16px #000000;
+  }
+
+  .product_group_qty {
+    position: absolute;
+    z-index: 13;
+    bottom: 26.8%;
+    right: 25%;
+    font-family: "Aleo_Medium";
+    font-size: 70px;
+    font-weight: 500;
+    width: 460px;
+    height: 120px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .three_months_range {
+    position: absolute;
+    color: #1f9996;
+    z-index: 13;
+    // width: 100px;
+    font-family: "Montserrat_VariableFont_wght";
+    right: 130px;
+    bottom: 40px;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    text-align: right;
+    line-height: 50px;
+    .trip_months {
+      font-size: 45px;
+    }
+    .year {
+      font-weight: bold;
+      font-size: 55px;
+      line-height: 80px;
+    }
+  }
+}
