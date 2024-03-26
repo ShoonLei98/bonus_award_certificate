@@ -44,7 +44,7 @@ console.log("name class", getNameClass);
     <div className="digital_trip_certificate_container" ref={ref}>
       <img
         src={info?.frame}
-        alt="trip product frame"
+        alt="year end trip digital frame"
         className="trip_certificate_card"
         // onLoad={onFrameLoad}
       />
